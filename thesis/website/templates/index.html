@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Query and Map</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        h1 {
+            color: #050111;
+            font-size: 50px;
+        }
+
+        h2 {
+            color: #333;
+        }
+
+        form {
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        input[type="submit"] {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            background-color: #4caf50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <h1>Open-Mastr</h1>
+    
+    <h2>Enter Your Query:</h2>
+    
+    <form action="/Solarquery" method="POST">
+        <input type="submit" value="Solar Query">
+    </form>
+
+    <form action="/Windquery" method="POST">
+        <input type="submit" value="Wind Query">
+    </form>
+
+    <form action="/biomass" method="POST">
+        <input type="submit" value="Biomass Query">
+    </form>
+
+    <form action="/trend" method="POST" enctype="multipart/form-data">
+        <input type="submit" value="Trend Analysis">
+    </form>
+</body>
+</html>
