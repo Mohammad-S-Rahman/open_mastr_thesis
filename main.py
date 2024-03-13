@@ -44,7 +44,7 @@ data_bulk = [
 
 api_date = "latest"
 api_chunksize = 1000
-api_limit = 3000000 #Changed from 10 for testing purpose.
+api_limit = 10000 #Do NOT exceed this Limit. NEVER!
 api_processes = None
 
 data_api = [
@@ -69,6 +69,9 @@ api_location_types = [
 # to get user input added code from line 66 to 76
 database_connection = None
 
+download_method = None
+
+#Choosing the Database 
 while database_connection not in ('sqlite', 'postgresql'):
     user_input = input("Enter 'sqlite' or 'postgresql' to choose the database: ")
 
@@ -79,6 +82,17 @@ while database_connection not in ('sqlite', 'postgresql'):
     else:
         print("Invalid input. Please enter 'sqlite' or 'postgresql'.")
 
+# Choosing Between API or bulk downloading method
+while download_method not in ('API', 'bulk'):
+    user_input2 = input("Enter 'API' or 'bulk' downloading system: ")
+
+    if user_input2 == 'API':
+        download_method = 'API'
+    elif user_input2 == 'bulk':
+        download_method = 'bulk'
+    else:
+        print("Invalid input. Please enter 'bulk' or 'API'.")
+
 # instantiate Mastr class, added parameter database_connection to specify database engine
 db = Mastr(database_connection)
 
@@ -86,10 +100,11 @@ if __name__ == "__main__":
 
     ## download Markstammdatenregister
     # bulk download
-    db.download(method="bulk", data=data_bulk, date=bulk_date, bulk_cleansing=True)
-
+    if download_method =='bulk':
+        db.download(method="bulk", data=data_bulk, date=bulk_date, bulk_cleansing=True)
+    elif download_method == 'API':
     # API download
-    db.download(
+        db.download(
         method="API",
         data=data_api,
         date=api_date,
@@ -98,7 +113,7 @@ if __name__ == "__main__":
         api_chunksize=api_chunksize,
         api_data_types=api_data_types,
         api_location_types=api_location_types,
-    )
+        )
 
     ## export to csv
     """
