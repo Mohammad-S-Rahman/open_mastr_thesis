@@ -28,12 +28,16 @@ def index():
 def Solarquery():
    # user_query = request.form['user_query']
 
-    # Query to get the total capacity from Solar_extended table
-    query = f"""
-    SELECT we."Landkreis", SUM(eeg."InstallierteLeistung") AS total_installierte_leistung
-    FROM solar_extended AS we
-    JOIN solar_eeg AS eeg ON we."EegMastrNummer" = eeg."EegMastrNummer"
-    GROUP BY we."Landkreis";
+    #updated query to add anzahlmodule to extract Q
+    query = """
+    SELECT 
+        we."Landkreis",
+        SUBSTRING(we."Gemeindeschluessel" FROM 1 FOR 5) AS Kreisnummer,
+        we."Bruttoleistung", we."AnzahlModule"
+    FROM 
+        solar_extended AS we
+    GROUP BY 
+        we."Landkreis", SUBSTRING(we."Gemeindeschluessel" FROM 1 FOR 5), we."Bruttoleistung", we."AnzahlModule";
     """
 
 # Connecting the database: We have to change the credentials everytime we do a bulk download and create a new PG database
@@ -53,59 +57,63 @@ def Solarquery():
     results = cursor.fetchall()
 
     kreisliste = DataFrame(results)
-    kreisliste.columns = ['landkreis','capacity']
+    kreisliste.columns = ['landkreis','kreisnummer','Bruttoleistung', 'AnzahlModule']
 
     # Drop rows with missing longitude or latitude values
     kreisliste = kreisliste.dropna()
+    
+    #kreistliste = kreisliste.drop_duplicates(subset="kreisnummer")
+    kreisliste['q'] = (kreisliste['Bruttoleistung'] / kreisliste['AnzahlModule']) * 1000
+    
+    #Without_outliers
+    # Create a new DataFrame containing rows where 'q' is not between 160 and 800
+    filtered_df = kreisliste[(kreisliste['q'] < 800) & (kreisliste['q'] > 160)].copy()
+    
+    # Group by 'Landkreis' and 'kreisnummer', then calculate the sum of 'brutoleistung'
+    sum_bruttoleistung_per_kreisnummer = filtered_df.groupby(['landkreis', 'kreisnummer'])['Bruttoleistung'].sum().reset_index()
 
-    # Remove the districts where we cannot find the names
-    kreisliste = kreisliste[kreisliste['landkreis'] != 'Neustadt an der Weinstraße']
-    kreisliste = kreisliste[kreisliste['landkreis'] != 'Rhein-Pfalz-Kreis']
-    #kreisliste.to_csv('kreiseInDatabaseneu.csv', index=False)
+    # Print the new DataFrame
 
-
-    #display(kreisliste)
+    sum_bruttoleistung_per_kreisnummer.columns = ['landkreis','kreisnummer','InstalledPower']
+    
+    #Kreisnummern so verändern, dass sie mit den GoJson Nummern entsprechen
+    sum_bruttoleistung_per_kreisnummer = sum_bruttoleistung_per_kreisnummer.astype({'kreisnummer' : 'float'})       #get rid of 0 in front
+    sum_bruttoleistung_per_kreisnummer = sum_bruttoleistung_per_kreisnummer.astype({'kreisnummer' : 'int'})       #get rid of 0 in front
+    sum_bruttoleistung_per_kreisnummer = sum_bruttoleistung_per_kreisnummer.astype({'kreisnummer' : 'str'})       #only strings can be verglichen werden to show results
+    sum_bruttoleistung_per_kreisnummer['kreisnummer'] = sum_bruttoleistung_per_kreisnummer['kreisnummer'] + '000'         #add 000
 
     #öffnen der zuvor erstellten geojson datei - with dient dabei zum direkten wieder schließen
     #f=codecs.open(filename, 'r', 'utf-8')
-    with open('Landkreis_Solar.json',encoding='utf8') as handle:
+    with open('LandkreiseALL.json',encoding='utf8') as handle:
         country_geo = json.loads(handle.read())
 
     #erstellen eines neuen DF für die Landkreisliste 
-    struktur = {'kreisnummer' : [],'landkreis' : []}
+    struktur = {'kreisnummer' : []}
     kreislist = DataFrame(struktur)
 
     #beschreiben der kreisliste mit entsprechenden Namen aus der JSON Datei
     j = 0
     for i in country_geo['features']:
-        kreislist.at[j,'landkreis']   =      i['properties']['KRG']                 #zuweisung vom Kreisnamen
-        #print(i['properties']['KRG'])
-        kreislist.at[j,'kreisnummer'] = float( i['properties']['SN_KRG'] ) / 1000     #zuweisung vom Kenncode -- dividieren durch 1000 weil Stammdaten aus JSON aus irgendeinem Grund drei Nullen angehängt haben
+        kreislist.at[j,'kreisnummer'] =  i['properties']['SN_KRG']      #zuweisung vom Kenncode -- dividieren durch 1000 weil Stammdaten aus JSON aus irgendeinem Grund drei Nullen angehängt haben
         j = j+1
         
-    #kreislist['landkreis'].to_csv('kreise.csv', index=False)
-
     # Merge based on the "landkreis" column and select the desired columns
-    merged_df = kreislist.merge(kreisliste, on='landkreis', how='inner')
-
-    #display(merged_df)
-    #merged_df['landkreis'].to_csv('dfkreise.csv', index=False)
-
+    merged_df = DataFrame.merge(kreislist, sum_bruttoleistung_per_kreisnummer, on='kreisnummer', how='outer')
+    merged_df['InstalledPower'].fillna(0, inplace=True) #fillna function puts o instead of Null to a district. 
+    merged_df = merged_df.drop_duplicates(subset=["kreisnummer"])
+    merged_df['InstalledPower'].round(2) # Todo: For some reason it is not working. Get back to it later. 
+    merged_df['InstalledPower'].to_csv('mergedcsvkreisnummer.csv', index=False)
     #print(DataFrame.merge([kreisliste,merged_df]).drop_duplicates(keep=False))
-    colorStep =  [ 250, 500, 1000, 10000, 20000, 30000, 40000, 50000, 60000, 70000, 80000, 90000,100000, 200000, 300000, 400000, 500000, 1000000, 1500000, 2000000, 2500000, 3000000]
+    colorStep =  [ 0.6, 100, 250, 500, 1000, 5000, 10000, 20000, 30000, 40000, 50000, 60000, 70000, 80000, 90000,100000, 200000, 300000, 400000, 500000, 1000000]
 
-
-    #map = getKarte(geoDaten = country_geo ,kreisliste = merged_df, colorstep= colorStep, key_on = 'capacity')
-
-    #map
     geoDaten = country_geo
-    key_on = 'capacity'
+    key_on = 'InstalledPower'
     colorstep = colorStep
     #Kreisnummern so verändern, dass sie mit den GoJson Nummern entsprechen
     merged_df = merged_df.astype({'kreisnummer' : 'float'})       #get rid of 0 in front
     merged_df = merged_df.astype({'kreisnummer' : 'int'})       #get rid of 0 in front
     merged_df = merged_df.astype({'kreisnummer' : 'str'})       #only strings can be verglichen werden to show results
-    merged_df['kreisnummer'] = merged_df['kreisnummer'] + '000'         #add 000
+    #merged_df['kreisnummer'] = merged_df['kreisnummer'] + '000'         #add 000
 
     # First we determine the maximum and minimum values - this becomes the basis for the steps in the map
     vmax = merged_df[key_on].max()  
@@ -202,14 +210,18 @@ def Windquery():
    # user_query = request.form['user_query']
 
     # Query to get the total capacity from Wind_extended table
-    query = f"""
-    SELECT we."Landkreis", SUM(eeg."InstallierteLeistung") AS total_installierte_leistung
-    FROM wind_extended AS we
-    JOIN wind_eeg AS eeg ON we."EegMastrNummer" = eeg."EegMastrNummer"
-    GROUP BY we."Landkreis";
+    query = """
+    SELECT 
+        we."Landkreis",
+        SUBSTRING(we."Gemeindeschluessel" FROM 1 FOR 5) AS Kreisnummer,
+        we."Bruttoleistung"
+    FROM 
+        wind_extended AS we
+    GROUP BY 
+        we."Landkreis", SUBSTRING(we."Gemeindeschluessel" FROM 1 FOR 5), we."Bruttoleistung";
     """
 
-# Connecting the database with credentials set in PG
+# Connecting the database: We have to change the credentials everytime we do a bulk download and create a new PG database
     connection = psycopg2.connect(
     user="tester",
     password="1234",
@@ -226,59 +238,60 @@ def Windquery():
     results = cursor.fetchall()
 
     kreisliste = DataFrame(results)
-    kreisliste.columns = ['landkreis','capacity']
+    kreisliste.columns = ['landkreis','kreisnummer','Bruttoleistung']
 
     # Drop rows with missing longitude or latitude values
     kreisliste = kreisliste.dropna()
-    # Remove the row where the 'Name' doesn't match
-    kreisliste = kreisliste[kreisliste['landkreis'] != 'Neustadt an der Weinstraße']
-    kreisliste = kreisliste[kreisliste['landkreis'] != 'Rhein-Pfalz-Kreis']
-    #kreisliste.to_csv('kreiseInDatabaseneu.csv', index=False)
+    
+    #Without_outliers
+    # Create a new DataFrame containing rows where 'q' is not between 160 and 800
+    filtered_df = kreisliste[(kreisliste['Bruttoleistung'] < 20000) & (kreisliste['Bruttoleistung'] > 100)].copy()
+    
+    # Group by 'Landkreis' and 'kreisnummer', then calculate the sum of 'brutoleistung'
+    sum_bruttoleistung_per_kreisnummer = filtered_df.groupby(['landkreis', 'kreisnummer'])['Bruttoleistung'].sum().reset_index()
 
+    # Print the new DataFrame
 
-    #display(kreisliste)
+    sum_bruttoleistung_per_kreisnummer.columns = ['landkreis','kreisnummer','InstalledPower']
+    
+    #Kreisnummern so verändern, dass sie mit den GoJson Nummern entsprechen
+    sum_bruttoleistung_per_kreisnummer = sum_bruttoleistung_per_kreisnummer.astype({'kreisnummer' : 'float'})       #get rid of 0 in front
+    sum_bruttoleistung_per_kreisnummer = sum_bruttoleistung_per_kreisnummer.astype({'kreisnummer' : 'int'})       #get rid of 0 in front
+    sum_bruttoleistung_per_kreisnummer = sum_bruttoleistung_per_kreisnummer.astype({'kreisnummer' : 'str'})       #only strings can be verglichen werden to show results
+    sum_bruttoleistung_per_kreisnummer['kreisnummer'] = sum_bruttoleistung_per_kreisnummer['kreisnummer'] + '000'         #add 000
 
     #öffnen der zuvor erstellten geojson datei - with dient dabei zum direkten wieder schließen
     #f=codecs.open(filename, 'r', 'utf-8')
-    with open('Landkreis_Windmills.json',encoding='utf8') as handle:
+    with open('LandkreiseALL.json',encoding='utf8') as handle:
         country_geo = json.loads(handle.read())
 
     #erstellen eines neuen DF für die Landkreisliste 
-    struktur = {'kreisnummer' : [],'landkreis' : []}
+    struktur = {'kreisnummer' : []}
     kreislist = DataFrame(struktur)
 
     #beschreiben der kreisliste mit entsprechenden Namen aus der JSON Datei
     j = 0
     for i in country_geo['features']:
-        kreislist.at[j,'landkreis']   =      i['properties']['KRG']                 #zuweisung vom Kreisnamen
-        #print(i['properties']['KRG'])
-        kreislist.at[j,'kreisnummer'] = float( i['properties']['SN_KRG'] ) / 1000     #zuweisung vom Kenncode -- dividieren durch 1000 weil Stammdaten aus JSON aus irgendeinem Grund drei Nullen angehängt haben
+        kreislist.at[j,'kreisnummer'] =  i['properties']['SN_KRG']      #zuweisung vom Kenncode -- dividieren durch 1000 weil Stammdaten aus JSON aus irgendeinem Grund drei Nullen angehängt haben
         j = j+1
         
-    #kreislist['landkreis'].to_csv('kreise.csv', index=False)
-
     # Merge based on the "landkreis" column and select the desired columns
-    merged_df = kreislist.merge(kreisliste, on='landkreis', how='inner')
-
-    #display(merged_df)
-    #merged_df['landkreis'].to_csv('dfkreise.csv', index=False)
-
+    merged_df = DataFrame.merge(kreislist, sum_bruttoleistung_per_kreisnummer, on='kreisnummer', how='outer')
+    merged_df['InstalledPower'].fillna(0, inplace=True) #fillna function puts o instead of Null to a district. 
+    merged_df = merged_df.drop_duplicates(subset=["kreisnummer"])
+    merged_df['InstalledPower'].round(2) # Todo: For some reason it is not working. Get back to it later. 
+    merged_df['InstalledPower'].to_csv('mergedcsvkreisnummer.csv', index=False)
     #print(DataFrame.merge([kreisliste,merged_df]).drop_duplicates(keep=False))
-    colorStep =  [ 250, 500, 1000, 10000, 20000, 30000, 40000, 50000, 60000, 70000, 80000, 90000,100000, 200000, 300000, 400000, 500000, 1000000, 1500000, 2000000, 2500000, 3000000]
+    colorStep =  [ 0.6, 100, 250, 500, 1000, 5000, 10000, 12000, 14000, 18000, 20000, 40000, 50000, 60000, 70000]
 
-
-    #map = getKarte(geoDaten = country_geo ,kreisliste = merged_df, colorstep= colorStep, key_on = 'capacity')
-
-    #map
     geoDaten = country_geo
-    key_on = 'capacity'
+    key_on = 'InstalledPower'
     colorstep = colorStep
     #Kreisnummern so verändern, dass sie mit den GoJson Nummern entsprechen
     merged_df = merged_df.astype({'kreisnummer' : 'float'})       #get rid of 0 in front
     merged_df = merged_df.astype({'kreisnummer' : 'int'})       #get rid of 0 in front
     merged_df = merged_df.astype({'kreisnummer' : 'str'})       #only strings can be verglichen werden to show results
-    merged_df['kreisnummer'] = merged_df['kreisnummer'] + '000'         #add 000
-
+    #merged_df['kreisnummer'] = merged_df['kreisnummer'] + '000'         #add 000
     #First determining the maximum and minimum values - this becomes the basis for the steps in the map
     vmax = merged_df[key_on].max()  
     vmin = merged_df[key_on].min() 
@@ -381,72 +394,87 @@ def biomass():
 
     #updated query
     query = """
-    SELECT we."Landkreis", SUM(eeg."InstallierteLeistung") AS total_installierte_leistung
-    FROM biomass_extended AS we
-    JOIN biomass_eeg AS eeg ON we."EegMastrNummer" = eeg."EegMastrNummer"
-    GROUP BY we."Landkreis";
+    SELECT 
+        we."Landkreis",
+        SUBSTRING(we."Gemeindeschluessel" FROM 1 FOR 5) AS Kreisnummer,
+        we."Bruttoleistung"
+    FROM 
+        biomass_extended AS we
+    GROUP BY 
+        we."Landkreis", SUBSTRING(we."Gemeindeschluessel" FROM 1 FOR 5), we."Bruttoleistung";
     """
+
+# Connecting the database: We have to change the credentials everytime we do a bulk download and create a new PG database
+    connection = psycopg2.connect(
+    user="tester",
+    password="1234",
+    host="localhost",
+    port="5432",
+    database="ThesisTry1"
+)
+
     # Create a cursor and execute the query
-    cursor = db_connection.cursor()
+    cursor = connection.cursor()
     cursor.execute(query)
 
     # Fetch all the rows from the result
     results = cursor.fetchall()
 
     kreisliste = DataFrame(results)
-    kreisliste.columns = ['landkreis','capacity']
+    kreisliste.columns = ['landkreis','kreisnummer','Bruttoleistung']
 
     # Drop rows with missing longitude or latitude values
     kreisliste = kreisliste.dropna()
- 
-    #kreisliste = kreisliste[kreisliste['landkreis'] != 'Mönchengladbach']
-    #kreisliste = kreisliste[kreisliste['landkreis'] != 'Südliche Weinstraße']
+    
+    #Without_outliers
+    # Create a new DataFrame containing rows where 'q' is not between 160 and 800
+    filtered_df = kreisliste[(kreisliste['Bruttoleistung'] < 10000000) & (kreisliste['Bruttoleistung'] > 1)].copy()
+    
+    # Group by 'Landkreis' and 'kreisnummer', then calculate the sum of 'brutoleistung'
+    sum_bruttoleistung_per_kreisnummer = filtered_df.groupby(['landkreis', 'kreisnummer'])['Bruttoleistung'].sum().reset_index()
 
+    # Print the new DataFrame
 
-    #kreisliste.to_csv('kreiseBiomass.csv', index=False)
-
-
-    #display(kreisliste)
+    sum_bruttoleistung_per_kreisnummer.columns = ['landkreis','kreisnummer','InstalledPower']
+    
+    #Kreisnummern so verändern, dass sie mit den GoJson Nummern entsprechen
+    sum_bruttoleistung_per_kreisnummer = sum_bruttoleistung_per_kreisnummer.astype({'kreisnummer' : 'float'})       #get rid of 0 in front
+    sum_bruttoleistung_per_kreisnummer = sum_bruttoleistung_per_kreisnummer.astype({'kreisnummer' : 'int'})       #get rid of 0 in front
+    sum_bruttoleistung_per_kreisnummer = sum_bruttoleistung_per_kreisnummer.astype({'kreisnummer' : 'str'})       #only strings can be verglichen werden to show results
+    sum_bruttoleistung_per_kreisnummer['kreisnummer'] = sum_bruttoleistung_per_kreisnummer['kreisnummer'] + '000'         #add 000
 
     #öffnen der zuvor erstellten geojson datei - with dient dabei zum direkten wieder schließen
     #f=codecs.open(filename, 'r', 'utf-8')
-    with open('Landkreise_biomass.json',encoding='utf8') as handle:
+    with open('LandkreiseALL.json',encoding='utf8') as handle:
         country_geo = json.loads(handle.read())
 
     #erstellen eines neuen DF für die Landkreisliste 
-    struktur = {'kreisnummer' : [],'landkreis' : []}
-    #struktur = {'landkreis' : []}
+    struktur = {'kreisnummer' : []}
     kreislist = DataFrame(struktur)
 
     #beschreiben der kreisliste mit entsprechenden Namen aus der JSON Datei
     j = 0
     for i in country_geo['features']:
-        kreislist.at[j,'landkreis']   =      i['properties']['KRG']                 #zuweisung vom Kreisnamen
-        #print(i['properties']['KRG'])
-        kreislist.at[j,'kreisnummer'] = float( i['properties']['SN_KRG'] ) / 1000     #zuweisung vom Kenncode -- dividieren durch 1000 weil Stammdaten aus JSON aus irgendeinem Grund drei Nullen angehängt haben
+        kreislist.at[j,'kreisnummer'] =  i['properties']['SN_KRG']      #zuweisung vom Kenncode -- dividieren durch 1000 weil Stammdaten aus JSON aus irgendeinem Grund drei Nullen angehängt haben
         j = j+1
-
-    #kreislist.to_csv('kreiseBiomassGeoJson.csv', index=False)
-
+        
     # Merge based on the "landkreis" column and select the desired columns
-    merged_df = kreislist.merge(kreisliste, on='landkreis', how='inner')
-    merged_df = merged_df.dropna()
-    #display(merged_df)
-    #merged_df.to_csv('dfkreise.csv', index=False)
-    #merged_df.to_csv('mergedkreiseBiomassGeoJson.csv', index=False)
-
+    merged_df = DataFrame.merge(kreislist, sum_bruttoleistung_per_kreisnummer, on='kreisnummer', how='outer')
+    merged_df['InstalledPower'].fillna(0, inplace=True) #fillna function puts o instead of Null to a district. 
+    merged_df = merged_df.drop_duplicates(subset=["kreisnummer"])
+    merged_df['InstalledPower'].round(2) # Todo: For some reason it is not working. Get back to it later. 
+    merged_df['InstalledPower'].to_csv('mergedcsvkreisnummer.csv', index=False)
     #print(DataFrame.merge([kreisliste,merged_df]).drop_duplicates(keep=False))
-    colorStep =  [1000, 10000, 20000, 25000, 27000, 30000, 35000, 40000, 45000, 48000, 50000, 55000, 60000, 65000, 70000, 80000, 90000,100000, 150000,180000, 200000, 220000, 230000, 250000, 270000, 290000, 300000, 320000, 350000, 365000, 380000, 390000, 401000]
-
+    colorStep =  [1000, 5000, 10000, 20000, 30000, 40000, 50000, 60000, 70000, 80000, 90000,100000,150000]
 
     geoDaten = country_geo
-    key_on = 'capacity'
+    key_on = 'InstalledPower'
     colorstep = colorStep
     #Kreisnummern so verändern, dass sie mit den GoJson Nummern entsprechen
     merged_df = merged_df.astype({'kreisnummer' : 'float'})       #get rid of 0 in front
     merged_df = merged_df.astype({'kreisnummer' : 'int'})       #get rid of 0 in front
     merged_df = merged_df.astype({'kreisnummer' : 'str'})       #only strings can be verglichen werden to show results
-    merged_df['kreisnummer'] = merged_df['kreisnummer'] + '000'         #add 000
+    #merged_df['kreisnummer'] = merged_df['kreisnummer'] + '000'         #add 000
 
     #First determining the maximum and minimum values - this becomes the basis for the steps in the map
     vmax = merged_df[key_on].max()  
