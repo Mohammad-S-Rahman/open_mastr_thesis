@@ -66,7 +66,7 @@ api_location_types = [
     "location_gas_generation",
     "location_gas_consumption",
 ]
-# to get user input added code from line 66 to 76
+#to get user input added code from line 66 to 76
 database_connection = None
 
 download_method = None
