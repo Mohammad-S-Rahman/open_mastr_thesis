@@ -84,7 +84,7 @@ class Mastr:
             self.output_dir = get_output_dir()
             self.home_directory = get_project_home_dir()
             self._sqlite_folder_path = os.path.join(self.output_dir, "data", engine)
-            engine = create_engine("postgresql://open_tester:1234@localhost/APIDB") # how to save the credentials? Users don't wanna do this again n again
+            engine = create_engine("postgresql://tester:1234@localhost/BulkTest") # how to save the credentials? Users don't wanna do this again n again
             os.makedirs(self._sqlite_folder_path, exist_ok=True)
 
         self.is_translated = connect_to_translated_db

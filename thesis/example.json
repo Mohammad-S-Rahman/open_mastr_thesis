@@ -12,7 +12,7 @@
       "properties": {
         "SN_KRG": "1002000",
         "KRG": "Kiel",
-        "InstalledPower": "24936.703999999998"
+        "InstalledPower": "75.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -239,7 +239,7 @@
       "properties": {
         "SN_KRG": "1003000",
         "KRG": "Luebeck",
-        "InstalledPower": "28346.00400000005"
+        "InstalledPower": "14650.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -502,7 +502,7 @@
       "properties": {
         "SN_KRG": "1051000",
         "KRG": "Dithmarschen",
-        "InstalledPower": "371981.7680000008"
+        "InstalledPower": "2499141.6400000006"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -1035,7 +1035,7 @@
       "properties": {
         "SN_KRG": "1053000",
         "KRG": "Herzogtum Lauenburg",
-        "InstalledPower": "101711.00799999994"
+        "InstalledPower": "146686.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -1578,7 +1578,7 @@
       "properties": {
         "SN_KRG": "1054000",
         "KRG": "Nordfriesland",
-        "InstalledPower": "413874.88500000094"
+        "InstalledPower": "2713746.0999999996"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -2719,7 +2719,7 @@
       "properties": {
         "SN_KRG": "1055000",
         "KRG": "Ostholstein",
-        "InstalledPower": "141177.36399999988"
+        "InstalledPower": "952462.0"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -3288,7 +3288,7 @@
       "properties": {
         "SN_KRG": "1056000",
         "KRG": "Pinneberg",
-        "InstalledPower": "83066.01599999971"
+        "InstalledPower": "36918.0"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -3593,7 +3593,7 @@
       "properties": {
         "SN_KRG": "1057000",
         "KRG": "Ploen",
-        "InstalledPower": "94408.72799999993"
+        "InstalledPower": "44870.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -4048,7 +4048,7 @@
       "properties": {
         "SN_KRG": "1058000",
         "KRG": "Rendsburg-Eckernfoerde/Neumuenster",
-        "InstalledPower": "373375.1490000017"
+        "InstalledPower": "810412.4999999999"
       },
       "geometry": {
         "type": "Polygon",
@@ -4755,7 +4755,7 @@
       "properties": {
         "SN_KRG": "1059000",
         "KRG": "Schleswig-Flensburg/Flensburg",
-        "InstalledPower": "558577.9230000017"
+        "InstalledPower": "1387007.4000000004"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -5568,7 +5568,7 @@
       "properties": {
         "SN_KRG": "1060000",
         "KRG": "Segeberg",
-        "InstalledPower": "141279.87799999997"
+        "InstalledPower": "405503.8"
       },
       "geometry": {
         "type": "Polygon",
@@ -6155,7 +6155,7 @@
       "properties": {
         "SN_KRG": "1061000",
         "KRG": "Steinburg",
-        "InstalledPower": "249213.53800000038"
+        "InstalledPower": "953961.3"
       },
       "geometry": {
         "type": "Polygon",
@@ -6562,7 +6562,7 @@
       "properties": {
         "SN_KRG": "1062000",
         "KRG": "Stormarn",
-        "InstalledPower": "86078.16799999982"
+        "InstalledPower": "70182.5"
       },
       "geometry": {
         "type": "Polygon",
@@ -7109,7 +7109,7 @@
       "properties": {
         "SN_KRG": "2000000",
         "KRG": "Hamburg",
-        "InstalledPower": "103317.75999999982"
+        "InstalledPower": "122299.8"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -7550,7 +7550,7 @@
       "properties": {
         "SN_KRG": "3101000",
         "KRG": "Braunschweig",
-        "InstalledPower": "54692.71599999994"
+        "InstalledPower": "7100.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -7769,7 +7769,7 @@
       "properties": {
         "SN_KRG": "3102000",
         "KRG": "Salzgitter",
-        "InstalledPower": "29702.744999999988"
+        "InstalledPower": "233030.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -8000,7 +8000,7 @@
       "properties": {
         "SN_KRG": "3103000",
         "KRG": "Wolfsburg",
-        "InstalledPower": "31512.06400000004"
+        "InstalledPower": "6666.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -8211,7 +8211,7 @@
       "properties": {
         "SN_KRG": "3151000",
         "KRG": "Gifhorn",
-        "InstalledPower": "116466.41299999997"
+        "InstalledPower": "322300.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -8766,7 +8766,7 @@
       "properties": {
         "SN_KRG": "3153000",
         "KRG": "Goslar",
-        "InstalledPower": "95926.95699999994"
+        "InstalledPower": "49582.5"
       },
       "geometry": {
         "type": "Polygon",
@@ -9237,7 +9237,7 @@
       "properties": {
         "SN_KRG": "3154000",
         "KRG": "Helmstedt",
-        "InstalledPower": "57479.20799999998"
+        "InstalledPower": "284700.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -9732,7 +9732,7 @@
       "properties": {
         "SN_KRG": "3155000",
         "KRG": "Northeim",
-        "InstalledPower": "125107.85499999982"
+        "InstalledPower": "182560.0"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -10197,7 +10197,7 @@
       "properties": {
         "SN_KRG": "3157000",
         "KRG": "Peine",
-        "InstalledPower": "75291.35199999987"
+        "InstalledPower": "287680.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -10500,7 +10500,7 @@
       "properties": {
         "SN_KRG": "3158000",
         "KRG": "Wolfenbuettel",
-        "InstalledPower": "68326.63999999996"
+        "InstalledPower": "435340.0"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -10929,7 +10929,7 @@
       "properties": {
         "SN_KRG": "3159000",
         "KRG": "Goettingen",
-        "InstalledPower": "211452.1080000003"
+        "InstalledPower": "125100.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -11680,7 +11680,7 @@
       "properties": {
         "SN_KRG": "3241000",
         "KRG": "Hannover",
-        "InstalledPower": "339010.80800000334"
+        "InstalledPower": "529686.9"
       },
       "geometry": {
         "type": "Polygon",
@@ -12351,7 +12351,7 @@
       "properties": {
         "SN_KRG": "3251000",
         "KRG": "Diepholz/Delmenhorst",
-        "InstalledPower": "309531.4460000015"
+        "InstalledPower": "919546.2"
       },
       "geometry": {
         "type": "Polygon",
@@ -12982,7 +12982,7 @@
       "properties": {
         "SN_KRG": "3252000",
         "KRG": "Hameln-Pyrmont",
-        "InstalledPower": "82118.57399999994"
+        "InstalledPower": "169105.6"
       },
       "geometry": {
         "type": "Polygon",
@@ -13377,7 +13377,7 @@
       "properties": {
         "SN_KRG": "3254000",
         "KRG": "Hildesheim",
-        "InstalledPower": "133708.00599999973"
+        "InstalledPower": "176251.6"
       },
       "geometry": {
         "type": "Polygon",
@@ -13844,7 +13844,7 @@
       "properties": {
         "SN_KRG": "3255000",
         "KRG": "Holzminden",
-        "InstalledPower": "57936.71700000005"
+        "InstalledPower": "74250.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -14227,7 +14227,7 @@
       "properties": {
         "SN_KRG": "3256000",
         "KRG": "Nienburg (Weser)",
-        "InstalledPower": "177762.59799999994"
+        "InstalledPower": "484339.5"
       },
       "geometry": {
         "type": "Polygon",
@@ -14886,7 +14886,7 @@
       "properties": {
         "SN_KRG": "3257000",
         "KRG": "Schaumburg",
-        "InstalledPower": "133754.87499999977"
+        "InstalledPower": "50150.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -15289,7 +15289,7 @@
       "properties": {
         "SN_KRG": "3351000",
         "KRG": "Celle",
-        "InstalledPower": "107056.32599999968"
+        "InstalledPower": "166302.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -15744,7 +15744,7 @@
       "properties": {
         "SN_KRG": "3352000",
         "KRG": "Cuxhaven",
-        "InstalledPower": "165074.44899999985"
+        "InstalledPower": "827329.2000000002"
       },
       "geometry": {
         "type": "Polygon",
@@ -16283,7 +16283,7 @@
       "properties": {
         "SN_KRG": "3353000",
         "KRG": "Harburg",
-        "InstalledPower": "100975.04799999972"
+        "InstalledPower": "284424.5"
       },
       "geometry": {
         "type": "Polygon",
@@ -16766,7 +16766,7 @@
       "properties": {
         "SN_KRG": "3354000",
         "KRG": "Luechow-Dannenberg",
-        "InstalledPower": "61011.32199999996"
+        "InstalledPower": "143000.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -17201,7 +17201,7 @@
       "properties": {
         "SN_KRG": "3355000",
         "KRG": "Lueneburg",
-        "InstalledPower": "94846.50099999981"
+        "InstalledPower": "270344.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -17808,7 +17808,7 @@
       "properties": {
         "SN_KRG": "3356000",
         "KRG": "Osterholz",
-        "InstalledPower": "80869.47399999993"
+        "InstalledPower": "144985.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -18123,7 +18123,7 @@
       "properties": {
         "SN_KRG": "3357000",
         "KRG": "Rotenburg (Wuemme)",
-        "InstalledPower": "159727.4329999998"
+        "InstalledPower": "656006.8"
       },
       "geometry": {
         "type": "Polygon",
@@ -18774,7 +18774,7 @@
       "properties": {
         "SN_KRG": "3358000",
         "KRG": "Heide",
-        "InstalledPower": "108167.7049999999"
+        "InstalledPower": "362350.6"
       },
       "geometry": {
         "type": "Polygon",
@@ -19405,7 +19405,7 @@
       "properties": {
         "SN_KRG": "3359000",
         "KRG": "Stade",
-        "InstalledPower": "133754.54099999982"
+        "InstalledPower": "603415.7"
       },
       "geometry": {
         "type": "Polygon",
@@ -19860,7 +19860,7 @@
       "properties": {
         "SN_KRG": "3360000",
         "KRG": "Uelzen",
-        "InstalledPower": "91030.32799999983"
+        "InstalledPower": "465739.6"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -20325,7 +20325,7 @@
       "properties": {
         "SN_KRG": "3361000",
         "KRG": "Verden",
-        "InstalledPower": "102074.96699999977"
+        "InstalledPower": "210063.5"
       },
       "geometry": {
         "type": "Polygon",
@@ -20760,7 +20760,7 @@
       "properties": {
         "SN_KRG": "3403000",
         "KRG": "Oldenburg (Oldenburg)",
-        "InstalledPower": "59756.32399999995"
+        "InstalledPower": "15800.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -20859,7 +20859,7 @@
       "properties": {
         "SN_KRG": "3404000",
         "KRG": "Osnabrueck",
-        "InstalledPower": "51017.10399999999"
+        "InstalledPower": "10200.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -20986,7 +20986,7 @@
       "properties": {
         "SN_KRG": "3451000",
         "KRG": "Ammerland",
-        "InstalledPower": "114199.59799999985"
+        "InstalledPower": "102745.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -21253,7 +21253,7 @@
       "properties": {
         "SN_KRG": "3452000",
         "KRG": "Aurich/Emden",
-        "InstalledPower": "152739.21299999979"
+        "InstalledPower": "1131170.3"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -21802,7 +21802,7 @@
       "properties": {
         "SN_KRG": "3453000",
         "KRG": "Cloppenburg",
-        "InstalledPower": "379491.1770000013"
+        "InstalledPower": "510658.8"
       },
       "geometry": {
         "type": "Polygon",
@@ -22129,7 +22129,7 @@
       "properties": {
         "SN_KRG": "3454000",
         "KRG": "Emsland",
-        "InstalledPower": "727912.9720000009"
+        "InstalledPower": "1491424.2"
       },
       "geometry": {
         "type": "Polygon",
@@ -22572,7 +22572,7 @@
       "properties": {
         "SN_KRG": "3455000",
         "KRG": "Friesland/Wilhelmshaven",
-        "InstalledPower": "85746.74999999991"
+        "InstalledPower": "348406.89999999997"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -22885,7 +22885,7 @@
       "properties": {
         "SN_KRG": "3456000",
         "KRG": "Grafschaft Bentheim",
-        "InstalledPower": "251095.935"
+        "InstalledPower": "200619.8"
       },
       "geometry": {
         "type": "Polygon",
@@ -23176,7 +23176,7 @@
       "properties": {
         "SN_KRG": "3457000",
         "KRG": "Leer",
-        "InstalledPower": "117842.9199999999"
+        "InstalledPower": "253353.99999999994"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -23581,7 +23581,7 @@
       "properties": {
         "SN_KRG": "3458000",
         "KRG": "Oldenburg (Oldenburg)",
-        "InstalledPower": "185568.79799999972"
+        "InstalledPower": "328130.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -23880,7 +23880,7 @@
       "properties": {
         "SN_KRG": "3459000",
         "KRG": "Osnabrueck",
-        "InstalledPower": "473417.3170000013"
+        "InstalledPower": "591364.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -24475,7 +24475,7 @@
       "properties": {
         "SN_KRG": "3460000",
         "KRG": "Vechta",
-        "InstalledPower": "297689.0780000011"
+        "InstalledPower": "211110.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -24762,7 +24762,7 @@
       "properties": {
         "SN_KRG": "3461000",
         "KRG": "Wesermarsch",
-        "InstalledPower": "78392.10899999985"
+        "InstalledPower": "460748.5"
       },
       "geometry": {
         "type": "Polygon",
@@ -25065,7 +25065,7 @@
       "properties": {
         "SN_KRG": "3462000",
         "KRG": "Wittmund",
-        "InstalledPower": "56856.76299999999"
+        "InstalledPower": "397750.1"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -25446,7 +25446,7 @@
       "properties": {
         "SN_KRG": "4011000",
         "KRG": "Bremen",
-        "InstalledPower": "75416.26699999982"
+        "InstalledPower": "134174.0"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -25715,7 +25715,7 @@
       "properties": {
         "SN_KRG": "4012000",
         "KRG": "Bremerhaven",
-        "InstalledPower": "15480.253999999994"
+        "InstalledPower": "67140.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -25846,7 +25846,7 @@
       "properties": {
         "SN_KRG": "5111000",
         "KRG": "Duesseldorf",
-        "InstalledPower": "57966.212000000036"
+        "InstalledPower": "2.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -26061,7 +26061,7 @@
       "properties": {
         "SN_KRG": "5112000",
         "KRG": "Duisburg",
-        "InstalledPower": "61096.131999999925"
+        "InstalledPower": "2300.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -26244,7 +26244,7 @@
       "properties": {
         "SN_KRG": "5113000",
         "KRG": "Essen",
-        "InstalledPower": "67503.29299999986"
+        "InstalledPower": "1.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -26427,7 +26427,7 @@
       "properties": {
         "SN_KRG": "5114000",
         "KRG": "Krefeld",
-        "InstalledPower": "52058.77999999996"
+        "InstalledPower": "20151.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -26542,7 +26542,7 @@
       "properties": {
         "SN_KRG": "5116000",
         "KRG": "Moenchengladbach",
-        "InstalledPower": "63493.48699999999"
+        "InstalledPower": "51309.9"
       },
       "geometry": {
         "type": "Polygon",
@@ -26733,7 +26733,7 @@
       "properties": {
         "SN_KRG": "5117000",
         "KRG": "Muelheim an der Ruhr",
-        "InstalledPower": "25521.126000000004"
+        "InstalledPower": "0.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -26824,7 +26824,7 @@
       "properties": {
         "SN_KRG": "5119000",
         "KRG": "Oberhausen",
-        "InstalledPower": "25639.05800000002"
+        "InstalledPower": "1.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -26939,7 +26939,7 @@
       "properties": {
         "SN_KRG": "5120000",
         "KRG": "Remscheid",
-        "InstalledPower": "18261.827"
+        "InstalledPower": "1505.5"
       },
       "geometry": {
         "type": "Polygon",
@@ -27026,7 +27026,7 @@
       "properties": {
         "SN_KRG": "5122000",
         "KRG": "Solingen",
-        "InstalledPower": "32877.47799999997"
+        "InstalledPower": "4600.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -27149,7 +27149,7 @@
       "properties": {
         "SN_KRG": "5124000",
         "KRG": "Wuppertal",
-        "InstalledPower": "49510.42400000001"
+        "InstalledPower": "9402.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -27332,7 +27332,7 @@
       "properties": {
         "SN_KRG": "5154000",
         "KRG": "Kleve",
-        "InstalledPower": "400831.1380000021"
+        "InstalledPower": "453676.3"
       },
       "geometry": {
         "type": "Polygon",
@@ -27791,7 +27791,7 @@
       "properties": {
         "SN_KRG": "5158000",
         "KRG": "Mettmann",
-        "InstalledPower": "123005.30399999971"
+        "InstalledPower": "2835.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -28122,7 +28122,7 @@
       "properties": {
         "SN_KRG": "5162000",
         "KRG": "Neuss",
-        "InstalledPower": "182267.1049999999"
+        "InstalledPower": "326871.5"
       },
       "geometry": {
         "type": "Polygon",
@@ -28481,7 +28481,7 @@
       "properties": {
         "SN_KRG": "5166000",
         "KRG": "Viersen",
-        "InstalledPower": "209058.34799999965"
+        "InstalledPower": "107882.5"
       },
       "geometry": {
         "type": "Polygon",
@@ -28744,7 +28744,7 @@
       "properties": {
         "SN_KRG": "5170000",
         "KRG": "Wesel",
-        "InstalledPower": "282201.337000001"
+        "InstalledPower": "126166.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -29191,7 +29191,7 @@
       "properties": {
         "SN_KRG": "5314000",
         "KRG": "Bonn",
-        "InstalledPower": "41855.01499999994"
+        "InstalledPower": "0.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -29326,7 +29326,7 @@
       "properties": {
         "SN_KRG": "5315000",
         "KRG": "Koeln",
-        "InstalledPower": "116277.52399999987"
+        "InstalledPower": "16550.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -29569,7 +29569,7 @@
       "properties": {
         "SN_KRG": "5316000",
         "KRG": "Leverkusen",
-        "InstalledPower": "28824.53500000001"
+        "InstalledPower": "0.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -29676,7 +29676,7 @@
       "properties": {
         "SN_KRG": "5334000",
         "KRG": "StaedteAachen",
-        "InstalledPower": "166121.60799999954"
+        "InstalledPower": "259013.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -30127,7 +30127,7 @@
       "properties": {
         "SN_KRG": "5358000",
         "KRG": "Dueren",
-        "InstalledPower": "210670.43000000023"
+        "InstalledPower": "597181.5"
       },
       "geometry": {
         "type": "Polygon",
@@ -30570,7 +30570,7 @@
       "properties": {
         "SN_KRG": "5362000",
         "KRG": "Erft",
-        "InstalledPower": "206844.4369999998"
+        "InstalledPower": "255316.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -30949,7 +30949,7 @@
       "properties": {
         "SN_KRG": "5366000",
         "KRG": "Euskirchen",
-        "InstalledPower": "199682.79299999963"
+        "InstalledPower": "256174.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -31500,7 +31500,7 @@
       "properties": {
         "SN_KRG": "5370000",
         "KRG": "Heinsberg",
-        "InstalledPower": "211091.6990000003"
+        "InstalledPower": "346860.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -31819,7 +31819,7 @@
       "properties": {
         "SN_KRG": "5374000",
         "KRG": "Oberbergischer ",
-        "InstalledPower": "138435.00699999998"
+        "InstalledPower": "19900.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -32242,7 +32242,7 @@
       "properties": {
         "SN_KRG": "5378000",
         "KRG": "Rheinisch-Bergischer ",
-        "InstalledPower": "90896.43999999994"
+        "InstalledPower": "275.6"
       },
       "geometry": {
         "type": "Polygon",
@@ -32561,7 +32561,7 @@
       "properties": {
         "SN_KRG": "5382000",
         "KRG": "Rhein-Sieg",
-        "InstalledPower": "261242.35000000114"
+        "InstalledPower": "3209.5"
       },
       "geometry": {
         "type": "Polygon",
@@ -33172,7 +33172,7 @@
       "properties": {
         "SN_KRG": "5512000",
         "KRG": "Bottrop",
-        "InstalledPower": "45158.66300000001"
+        "InstalledPower": "20820.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -33275,7 +33275,7 @@
       "properties": {
         "SN_KRG": "5513000",
         "KRG": "Gelsenkirchen",
-        "InstalledPower": "39615.263"
+        "InstalledPower": "4600.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -33394,7 +33394,7 @@
       "properties": {
         "SN_KRG": "5515000",
         "KRG": "Muenster",
-        "InstalledPower": "100080.547"
+        "InstalledPower": "98553.2"
       },
       "geometry": {
         "type": "Polygon",
@@ -33609,7 +33609,7 @@
       "properties": {
         "SN_KRG": "5554000",
         "KRG": "Borken",
-        "InstalledPower": "707737.6009999984"
+        "InstalledPower": "765140.3"
       },
       "geometry": {
         "type": "Polygon",
@@ -34028,7 +34028,7 @@
       "properties": {
         "SN_KRG": "5558000",
         "KRG": "Coesfeld",
-        "InstalledPower": "328077.84000000043"
+        "InstalledPower": "335421.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -34455,7 +34455,7 @@
       "properties": {
         "SN_KRG": "5562000",
         "KRG": "Recklinghausen",
-        "InstalledPower": "231106.28000000102"
+        "InstalledPower": "248492.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -34798,7 +34798,7 @@
       "properties": {
         "SN_KRG": "5566000",
         "KRG": "Steinfurt",
-        "InstalledPower": "592317.2640000038"
+        "InstalledPower": "752560.5"
       },
       "geometry": {
         "type": "Polygon",
@@ -35253,7 +35253,7 @@
       "properties": {
         "SN_KRG": "5570000",
         "KRG": "Warendorf",
-        "InstalledPower": "317193.3760000012"
+        "InstalledPower": "412859.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -35704,7 +35704,7 @@
       "properties": {
         "SN_KRG": "5711000",
         "KRG": "Bielefeld",
-        "InstalledPower": "96741.36799999983"
+        "InstalledPower": "15300.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -35899,7 +35899,7 @@
       "properties": {
         "SN_KRG": "5754000",
         "KRG": "Guetersloh",
-        "InstalledPower": "319028.6880000016"
+        "InstalledPower": "99176.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -36266,7 +36266,7 @@
       "properties": {
         "SN_KRG": "5758000",
         "KRG": "Herford",
-        "InstalledPower": "155671.66499999957"
+        "InstalledPower": "36824.5"
       },
       "geometry": {
         "type": "Polygon",
@@ -36565,7 +36565,7 @@
       "properties": {
         "SN_KRG": "5762000",
         "KRG": "Hoexter",
-        "InstalledPower": "248835.74799999996"
+        "InstalledPower": "958697.8"
       },
       "geometry": {
         "type": "Polygon",
@@ -36992,7 +36992,7 @@
       "properties": {
         "SN_KRG": "5766000",
         "KRG": "Lippe",
-        "InstalledPower": "231319.23200000002"
+        "InstalledPower": "302527.5"
       },
       "geometry": {
         "type": "Polygon",
@@ -37435,7 +37435,7 @@
       "properties": {
         "SN_KRG": "5770000",
         "KRG": "Minden-Luebbecke",
-        "InstalledPower": "300205.63000000187"
+        "InstalledPower": "119004.79999999999"
       },
       "geometry": {
         "type": "Polygon",
@@ -37926,7 +37926,7 @@
       "properties": {
         "SN_KRG": "5774000",
         "KRG": "Paderborn",
-        "InstalledPower": "390076.9600000009"
+        "InstalledPower": "1487057.4"
       },
       "geometry": {
         "type": "Polygon",
@@ -38285,7 +38285,7 @@
       "properties": {
         "SN_KRG": "5911000",
         "KRG": "Bochum",
-        "InstalledPower": "55715.08699999997"
+        "InstalledPower": "0.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -38428,7 +38428,7 @@
       "properties": {
         "SN_KRG": "5913000",
         "KRG": "Dortmund",
-        "InstalledPower": "98707.19599999987"
+        "InstalledPower": "19362.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -38639,7 +38639,7 @@
       "properties": {
         "SN_KRG": "5914000",
         "KRG": "Hagen",
-        "InstalledPower": "29387.904000000017"
+        "InstalledPower": "56000.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -38802,7 +38802,7 @@
       "properties": {
         "SN_KRG": "5915000",
         "KRG": "Hamm",
-        "InstalledPower": "66465.76299999993"
+        "InstalledPower": "62708.5"
       },
       "geometry": {
         "type": "Polygon",
@@ -38957,7 +38957,7 @@
       "properties": {
         "SN_KRG": "5916000",
         "KRG": "Herne",
-        "InstalledPower": "17143.160000000014"
+        "InstalledPower": "0.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -39040,7 +39040,7 @@
       "properties": {
         "SN_KRG": "5954000",
         "KRG": "Ennepe-Ruhr",
-        "InstalledPower": "76423.7939999999"
+        "InstalledPower": "9663.1"
       },
       "geometry": {
         "type": "Polygon",
@@ -39367,7 +39367,7 @@
       "properties": {
         "SN_KRG": "5958000",
         "KRG": "Hochsauerland",
-        "InstalledPower": "250206.44800000085"
+        "InstalledPower": "437899.5"
       },
       "geometry": {
         "type": "Polygon",
@@ -39998,7 +39998,7 @@
       "properties": {
         "SN_KRG": "5962000",
         "KRG": "Maerkischer ",
-        "InstalledPower": "135892.45999999938"
+        "InstalledPower": "75970.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -40409,7 +40409,7 @@
       "properties": {
         "SN_KRG": "5966000",
         "KRG": "Olpe",
-        "InstalledPower": "73852.36199999988"
+        "InstalledPower": "70220.9"
       },
       "geometry": {
         "type": "Polygon",
@@ -40800,7 +40800,7 @@
       "properties": {
         "SN_KRG": "5970000",
         "KRG": "Siegen",
-        "InstalledPower": "117180.58399999961"
+        "InstalledPower": "150008.6"
       },
       "geometry": {
         "type": "Polygon",
@@ -41231,7 +41231,7 @@
       "properties": {
         "SN_KRG": "5974000",
         "KRG": "Soest",
-        "InstalledPower": "333961.43400000245"
+        "InstalledPower": "353506.1"
       },
       "geometry": {
         "type": "Polygon",
@@ -41606,7 +41606,7 @@
       "properties": {
         "SN_KRG": "5978000",
         "KRG": "Unna",
-        "InstalledPower": "0.6"
+        "InstalledPower": "60650.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -42021,7 +42021,7 @@
       "properties": {
         "SN_KRG": "6411000",
         "KRG": "Darmstadt",
-        "InstalledPower": "24682.727000000086"
+        "InstalledPower": "0.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -42156,7 +42156,7 @@
       "properties": {
         "SN_KRG": "6412000",
         "KRG": "Frankfurt am Main",
-        "InstalledPower": "61002.710999999865"
+        "InstalledPower": "0.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -42391,7 +42391,7 @@
       "properties": {
         "SN_KRG": "6413000",
         "KRG": "Offenbach am Main",
-        "InstalledPower": "14822.756000000001"
+        "InstalledPower": "0.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -42506,7 +42506,7 @@
       "properties": {
         "SN_KRG": "6414000",
         "KRG": "Wiesbaden",
-        "InstalledPower": "38979.39400000003"
+        "InstalledPower": "0.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -42669,7 +42669,7 @@
       "properties": {
         "SN_KRG": "6431000",
         "KRG": "Bergstrasse",
-        "InstalledPower": "179043.85099999997"
+        "InstalledPower": "48750.0"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -43134,7 +43134,7 @@
       "properties": {
         "SN_KRG": "6432000",
         "KRG": "Darmstadt-Dieburg",
-        "InstalledPower": "154037.77799999935"
+        "InstalledPower": "25367.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -43557,7 +43557,7 @@
       "properties": {
         "SN_KRG": "6433000",
         "KRG": "Gross-Gerau",
-        "InstalledPower": "121243.7679999997"
+        "InstalledPower": "0.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -43864,7 +43864,7 @@
       "properties": {
         "SN_KRG": "6434000",
         "KRG": "Hochtaunus",
-        "InstalledPower": "68070.74099999997"
+        "InstalledPower": "33480.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -44163,7 +44163,7 @@
       "properties": {
         "SN_KRG": "6435000",
         "KRG": "Main-Kinzig",
-        "InstalledPower": "232275.85299999997"
+        "InstalledPower": "298835.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -44774,7 +44774,7 @@
       "properties": {
         "SN_KRG": "6436000",
         "KRG": "Main-Taunus",
-        "InstalledPower": "57897.098000000005"
+        "InstalledPower": "0.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -45033,7 +45033,7 @@
       "properties": {
         "SN_KRG": "6437000",
         "KRG": "Odenwald",
-        "InstalledPower": "68267.01699999996"
+        "InstalledPower": "79575.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -45404,7 +45404,7 @@
       "properties": {
         "SN_KRG": "6438000",
         "KRG": "Offenbach",
-        "InstalledPower": "95264.14399999983"
+        "InstalledPower": "0.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -45671,7 +45671,7 @@
       "properties": {
         "SN_KRG": "6439000",
         "KRG": "Rheingau-Taunus",
-        "InstalledPower": "81755.50699999985"
+        "InstalledPower": "63250.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -46078,7 +46078,7 @@
       "properties": {
         "SN_KRG": "6440000",
         "KRG": "Wetterau",
-        "InstalledPower": "148114.07499999975"
+        "InstalledPower": "45800.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -46629,7 +46629,7 @@
       "properties": {
         "SN_KRG": "6531000",
         "KRG": "Giessen",
-        "InstalledPower": "152526.8309999997"
+        "InstalledPower": "60820.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -47040,7 +47040,7 @@
       "properties": {
         "SN_KRG": "6532000",
         "KRG": "Lahn-Dill",
-        "InstalledPower": "157436.14300000004"
+        "InstalledPower": "171137.25"
       },
       "geometry": {
         "type": "Polygon",
@@ -47419,7 +47419,7 @@
       "properties": {
         "SN_KRG": "6533000",
         "KRG": "Limburg-Weilburg",
-        "InstalledPower": "154790.0999999997"
+        "InstalledPower": "99810.3"
       },
       "geometry": {
         "type": "Polygon",
@@ -47822,7 +47822,7 @@
       "properties": {
         "SN_KRG": "6534000",
         "KRG": "Marburg-Biedenkopf",
-        "InstalledPower": "200265.6819999998"
+        "InstalledPower": "244761.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -48277,7 +48277,7 @@
       "properties": {
         "SN_KRG": "6535000",
         "KRG": "Vogelsberg",
-        "InstalledPower": "194130.40800000032"
+        "InstalledPower": "578611.1000000001"
       },
       "geometry": {
         "type": "Polygon",
@@ -48768,7 +48768,7 @@
       "properties": {
         "SN_KRG": "6611000",
         "KRG": "Kassel",
-        "InstalledPower": "46376.80599999999"
+        "InstalledPower": "8150.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -48895,7 +48895,7 @@
       "properties": {
         "SN_KRG": "6631000",
         "KRG": "Fulda",
-        "InstalledPower": "258261.64199999959"
+        "InstalledPower": "73592.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -49354,7 +49354,7 @@
       "properties": {
         "SN_KRG": "6632000",
         "KRG": "Hersfeld-Rotenburg",
-        "InstalledPower": "146826.02800000002"
+        "InstalledPower": "256740.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -49837,7 +49837,7 @@
       "properties": {
         "SN_KRG": "6633000",
         "KRG": "Kassel",
-        "InstalledPower": "246849.77900000004"
+        "InstalledPower": "254754.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -50528,7 +50528,7 @@
       "properties": {
         "SN_KRG": "6634000",
         "KRG": "Schwalm-Eder",
-        "InstalledPower": "255818.80400000035"
+        "InstalledPower": "132822.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -50999,7 +50999,7 @@
       "properties": {
         "SN_KRG": "6635000",
         "KRG": "Waldeck-Frankenberg",
-        "InstalledPower": "199709.6520000003"
+        "InstalledPower": "336211.18"
       },
       "geometry": {
         "type": "Polygon",
@@ -51566,7 +51566,7 @@
       "properties": {
         "SN_KRG": "6636000",
         "KRG": "Werra-Meissner-Kreis",
-        "InstalledPower": "99613.20699999986"
+        "InstalledPower": "103458.5"
       },
       "geometry": {
         "type": "Polygon",
@@ -52117,7 +52117,7 @@
       "properties": {
         "SN_KRG": "7111000",
         "KRG": "Koblenz",
-        "InstalledPower": "28957.584000000024"
+        "InstalledPower": "102.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -52248,7 +52248,7 @@
       "properties": {
         "SN_KRG": "7131000",
         "KRG": "Ahrweiler",
-        "InstalledPower": "78477.30900000012"
+        "InstalledPower": "15690.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -52699,7 +52699,7 @@
       "properties": {
         "SN_KRG": "7132000",
         "KRG": "Altenkirchen (Westerwald)",
-        "InstalledPower": "84373.01599999996"
+        "InstalledPower": "19300.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -53278,7 +53278,7 @@
       "properties": {
         "SN_KRG": "7133000",
         "KRG": "Bad Kreuznach",
-        "InstalledPower": "159394.22699999984"
+        "InstalledPower": "174930.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -53753,7 +53753,7 @@
       "properties": {
         "SN_KRG": "7134000",
         "KRG": "Birkenfeld",
-        "InstalledPower": "56590.31299999998"
+        "InstalledPower": "192070.6"
       },
       "geometry": {
         "type": "Polygon",
@@ -54128,7 +54128,7 @@
       "properties": {
         "SN_KRG": "7135000",
         "KRG": "Cochem-Zell",
-        "InstalledPower": "120317.30999999997"
+        "InstalledPower": "178440.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -54515,7 +54515,7 @@
       "properties": {
         "SN_KRG": "7137000",
         "KRG": "Mayen-Koblenz",
-        "InstalledPower": "157729.15999999986"
+        "InstalledPower": "96382.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -55122,7 +55122,7 @@
       "properties": {
         "SN_KRG": "7138000",
         "KRG": "Neuwied",
-        "InstalledPower": "101670.36599999975"
+        "InstalledPower": "6.0"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -55567,7 +55567,7 @@
       "properties": {
         "SN_KRG": "7140000",
         "KRG": "Rhein-Hunsrueck",
-        "InstalledPower": "145738.623"
+        "InstalledPower": "792605.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -56018,7 +56018,7 @@
       "properties": {
         "SN_KRG": "7141000",
         "KRG": "Rhein-Lahn",
-        "InstalledPower": "78781.27199999991"
+        "InstalledPower": "10986.8"
       },
       "geometry": {
         "type": "Polygon",
@@ -56513,7 +56513,7 @@
       "properties": {
         "SN_KRG": "7143000",
         "KRG": "Westerwald",
-        "InstalledPower": "204003.61999999988"
+        "InstalledPower": "169950.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -57210,7 +57210,7 @@
       "properties": {
         "SN_KRG": "7211000",
         "KRG": "Trier",
-        "InstalledPower": "53909.31199999999"
+        "InstalledPower": "0.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -57377,7 +57377,7 @@
       "properties": {
         "SN_KRG": "7231000",
         "KRG": "Bernkastel-Wittlich",
-        "InstalledPower": "219433.70700000032"
+        "InstalledPower": "280674.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -57832,7 +57832,7 @@
       "properties": {
         "SN_KRG": "7232000",
         "KRG": "Eifel Bitburg-Pruem",
-        "InstalledPower": "365529.1109999999"
+        "InstalledPower": "533968.1"
       },
       "geometry": {
         "type": "Polygon",
@@ -58467,7 +58467,7 @@
       "properties": {
         "SN_KRG": "7233000",
         "KRG": "Vulkaneifel",
-        "InstalledPower": "78414.67000000001"
+        "InstalledPower": "203950.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -59058,7 +59058,7 @@
       "properties": {
         "SN_KRG": "7235000",
         "KRG": "Trier-Saarburg",
-        "InstalledPower": "229015.51399999985"
+        "InstalledPower": "282900.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -59767,7 +59767,7 @@
       "properties": {
         "SN_KRG": "7314000",
         "KRG": "Ludwigshafen am Rhein",
-        "InstalledPower": "31772.64299999999"
+        "InstalledPower": "0.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -59858,7 +59858,7 @@
       "properties": {
         "SN_KRG": "7315000",
         "KRG": "Mainz",
-        "InstalledPower": "45906.60499999998"
+        "InstalledPower": "22100.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -59985,7 +59985,7 @@
       "properties": {
         "SN_KRG": "7331000",
         "KRG": "Alzey-Worms/Worms",
-        "InstalledPower": "133940.17099999983"
+        "InstalledPower": "494892.2"
       },
       "geometry": {
         "type": "Polygon",
@@ -60404,7 +60404,7 @@
       "properties": {
         "SN_KRG": "7332000",
         "KRG": "Bad Duerkheim/Neustadt",
-        "InstalledPower": "105730.41900000005"
+        "InstalledPower": "27010.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -60783,7 +60783,7 @@
       "properties": {
         "SN_KRG": "7333000",
         "KRG": "Donnersberg",
-        "InstalledPower": "89433.46499999995"
+        "InstalledPower": "317445.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -61150,7 +61150,7 @@
       "properties": {
         "SN_KRG": "7334000",
         "KRG": "Germersheim",
-        "InstalledPower": "102477.78200000018"
+        "InstalledPower": "80800.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -61425,7 +61425,7 @@
       "properties": {
         "SN_KRG": "7335000",
         "KRG": "Kaiserslautern",
-        "InstalledPower": "110860.72600000001"
+        "InstalledPower": "118275.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -61840,7 +61840,7 @@
       "properties": {
         "SN_KRG": "7336000",
         "KRG": "Kusel",
-        "InstalledPower": "86124.4979999999"
+        "InstalledPower": "181315.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -62243,7 +62243,7 @@
       "properties": {
         "SN_KRG": "7337000",
         "KRG": "Suedliche Weinstrasse/Landau",
-        "InstalledPower": "113776.44699999996"
+        "InstalledPower": "46530.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -62662,7 +62662,7 @@
       "properties": {
         "SN_KRG": "7338000",
         "KRG": "Ludwigshafen/Frankenthal/Speyer",
-        "InstalledPower": "96223.07499999998"
+        "InstalledPower": "40101.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -62965,7 +62965,7 @@
       "properties": {
         "SN_KRG": "7339000",
         "KRG": "Mainz-Bingen",
-        "InstalledPower": "148138.29699999985"
+        "InstalledPower": "119321.3"
       },
       "geometry": {
         "type": "Polygon",
@@ -63460,7 +63460,7 @@
       "properties": {
         "SN_KRG": "7340000",
         "KRG": "Suedwestpfalz/Pirmasens/Zweibruecken",
-        "InstalledPower": "113080.25900000011"
+        "InstalledPower": "131110.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -63975,7 +63975,7 @@
       "properties": {
         "SN_KRG": "8111000",
         "KRG": "Stuttgart",
-        "InstalledPower": "83793.11499999999"
+        "InstalledPower": "0.6"
       },
       "geometry": {
         "type": "Polygon",
@@ -64202,7 +64202,7 @@
       "properties": {
         "SN_KRG": "8115000",
         "KRG": "Boeblingen",
-        "InstalledPower": "206005.51100000038"
+        "InstalledPower": "0.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -64625,7 +64625,7 @@
       "properties": {
         "SN_KRG": "8116000",
         "KRG": "Esslingen",
-        "InstalledPower": "220140.74100000013"
+        "InstalledPower": "2254.5"
       },
       "geometry": {
         "type": "Polygon",
@@ -65064,7 +65064,7 @@
       "properties": {
         "SN_KRG": "8117000",
         "KRG": "Goeppingen",
-        "InstalledPower": "172497.3340000001"
+        "InstalledPower": "132070.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -65491,7 +65491,7 @@
       "properties": {
         "SN_KRG": "8118000",
         "KRG": "Ludwigsburg",
-        "InstalledPower": "286172.2720000014"
+        "InstalledPower": "3009.5"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -65968,7 +65968,7 @@
       "properties": {
         "SN_KRG": "8119000",
         "KRG": "Rems-Murr",
-        "InstalledPower": "216959.16499999998"
+        "InstalledPower": "21711.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -66479,7 +66479,7 @@
       "properties": {
         "SN_KRG": "8121000",
         "KRG": "Heilbronn",
-        "InstalledPower": "47596.31099999997"
+        "InstalledPower": "0.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -66618,7 +66618,7 @@
       "properties": {
         "SN_KRG": "8125000",
         "KRG": "Heilbronn",
-        "InstalledPower": "355461.12300000095"
+        "InstalledPower": "122245.5"
       },
       "geometry": {
         "type": "Polygon",
@@ -67359,7 +67359,7 @@
       "properties": {
         "SN_KRG": "8126000",
         "KRG": "Hohenlohe",
-        "InstalledPower": "218298.64599999983"
+        "InstalledPower": "79400.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -67842,7 +67842,7 @@
       "properties": {
         "SN_KRG": "8127000",
         "KRG": "Schwaebisch Hall",
-        "InstalledPower": "444139.2419999994"
+        "InstalledPower": "344524.6"
       },
       "geometry": {
         "type": "Polygon",
@@ -68557,7 +68557,7 @@
       "properties": {
         "SN_KRG": "8128000",
         "KRG": "Main-Tauber",
-        "InstalledPower": "274997.1440000001"
+        "InstalledPower": "362603.5"
       },
       "geometry": {
         "type": "Polygon",
@@ -69248,7 +69248,7 @@
       "properties": {
         "SN_KRG": "8135000",
         "KRG": "Heidenheim",
-        "InstalledPower": "221958.942"
+        "InstalledPower": "155302.043"
       },
       "geometry": {
         "type": "Polygon",
@@ -69727,7 +69727,7 @@
       "properties": {
         "SN_KRG": "8136000",
         "KRG": "Ostalb",
-        "InstalledPower": "367717.30800000054"
+        "InstalledPower": "202766.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -70486,7 +70486,7 @@
       "properties": {
         "SN_KRG": "8212000",
         "KRG": "Karlsruhe",
-        "InstalledPower": "64938.04800000001"
+        "InstalledPower": "3110.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -70641,7 +70641,7 @@
       "properties": {
         "SN_KRG": "8215000",
         "KRG": "Karlsruhe",
-        "InstalledPower": "357586.048000001"
+        "InstalledPower": "2005.5"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -71234,7 +71234,7 @@
       "properties": {
         "SN_KRG": "8216000",
         "KRG": "Rastatt/Baden-Baden",
-        "InstalledPower": "181111.03599999985"
+        "InstalledPower": "1.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -71631,7 +71631,7 @@
       "properties": {
         "SN_KRG": "8221000",
         "KRG": "Heidelberg",
-        "InstalledPower": "35793.95300000001"
+        "InstalledPower": "0.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -71798,7 +71798,7 @@
       "properties": {
         "SN_KRG": "8222000",
         "KRG": "Mannheim",
-        "InstalledPower": "75457.007"
+        "InstalledPower": "9.8"
       },
       "geometry": {
         "type": "Polygon",
@@ -71945,7 +71945,7 @@
       "properties": {
         "SN_KRG": "8225000",
         "KRG": "Neckar-Odenwald",
-        "InstalledPower": "233737.19800000015"
+        "InstalledPower": "259540.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -72424,7 +72424,7 @@
       "properties": {
         "SN_KRG": "8226000",
         "KRG": "Rhein-Neckar",
-        "InstalledPower": "353052.3070000018"
+        "InstalledPower": "10.0"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -73209,7 +73209,7 @@
       "properties": {
         "SN_KRG": "8231000",
         "KRG": "Pforzheim",
-        "InstalledPower": "36516.61999999998"
+        "InstalledPower": "5.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -73352,7 +73352,7 @@
       "properties": {
         "SN_KRG": "8235000",
         "KRG": "Calw",
-        "InstalledPower": "133510.82299999992"
+        "InstalledPower": "90315.5"
       },
       "geometry": {
         "type": "Polygon",
@@ -73775,7 +73775,7 @@
       "properties": {
         "SN_KRG": "8236000",
         "KRG": "Enz",
-        "InstalledPower": "169383.67800000007"
+        "InstalledPower": "4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -74250,7 +74250,7 @@
       "properties": {
         "SN_KRG": "8237000",
         "KRG": "Freudenstadt",
-        "InstalledPower": "136842.07000000004"
+        "InstalledPower": "32000.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -74685,7 +74685,7 @@
       "properties": {
         "SN_KRG": "8311000",
         "KRG": "Freiburg im Breisgau",
-        "InstalledPower": "70399.26599999995"
+        "InstalledPower": "23060.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -74876,7 +74876,7 @@
       "properties": {
         "SN_KRG": "8315000",
         "KRG": "Breisgau-Hochschwarzwald",
-        "InstalledPower": "224759.80499999993"
+        "InstalledPower": "24794.1"
       },
       "geometry": {
         "type": "Polygon",
@@ -75539,7 +75539,7 @@
       "properties": {
         "SN_KRG": "8316000",
         "KRG": "Emmendingen",
-        "InstalledPower": "172364.60899999997"
+        "InstalledPower": "36868.5"
       },
       "geometry": {
         "type": "Polygon",
@@ -75866,7 +75866,7 @@
       "properties": {
         "SN_KRG": "8317000",
         "KRG": "Ortenau",
-        "InstalledPower": "426623.2509999996"
+        "InstalledPower": "144185.7"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -76355,7 +76355,7 @@
       "properties": {
         "SN_KRG": "8325000",
         "KRG": "Rottweil",
-        "InstalledPower": "175556.77799999993"
+        "InstalledPower": "41981.5"
       },
       "geometry": {
         "type": "Polygon",
@@ -76794,7 +76794,7 @@
       "properties": {
         "SN_KRG": "8326000",
         "KRG": "Schwarzwald-Baar",
-        "InstalledPower": "195430.68899999984"
+        "InstalledPower": "44045.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -77249,7 +77249,7 @@
       "properties": {
         "SN_KRG": "8327000",
         "KRG": "Tuttlingen",
-        "InstalledPower": "187105.3219999998"
+        "InstalledPower": "40810.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -77624,7 +77624,7 @@
       "properties": {
         "SN_KRG": "8335000",
         "KRG": "Konstanz",
-        "InstalledPower": "250740.5249999998"
+        "InstalledPower": "9902.8"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -78185,7 +78185,7 @@
       "properties": {
         "SN_KRG": "8336000",
         "KRG": "Loerrach",
-        "InstalledPower": "123372.73599999986"
+        "InstalledPower": "33506.8"
       },
       "geometry": {
         "type": "Polygon",
@@ -78496,7 +78496,7 @@
       "properties": {
         "SN_KRG": "8337000",
         "KRG": "Waldshut",
-        "InstalledPower": "184776.5949999999"
+        "InstalledPower": "20.299999999999997"
       },
       "geometry": {
         "type": "Polygon",
@@ -79007,7 +79007,7 @@
       "properties": {
         "SN_KRG": "8415000",
         "KRG": "Reutlingen",
-        "InstalledPower": "244597.7809999999"
+        "InstalledPower": "26300.6"
       },
       "geometry": {
         "type": "Polygon",
@@ -79518,7 +79518,7 @@
       "properties": {
         "SN_KRG": "8416000",
         "KRG": "Tuebingen",
-        "InstalledPower": "141667.92499999984"
+        "InstalledPower": "3.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -79873,7 +79873,7 @@
       "properties": {
         "SN_KRG": "8417000",
         "KRG": "Zollernalb",
-        "InstalledPower": "200612.84000000032"
+        "InstalledPower": "6015.4"
       },
       "geometry": {
         "type": "Polygon",
@@ -80256,7 +80256,7 @@
       "properties": {
         "SN_KRG": "8421000",
         "KRG": "Ulm",
-        "InstalledPower": "76345.29999999994"
+        "InstalledPower": "29400.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -80439,7 +80439,7 @@
       "properties": {
         "SN_KRG": "8425000",
         "KRG": "Alb-Donau",
-        "InstalledPower": "466821.74400000006"
+        "InstalledPower": "41891.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -81242,7 +81242,7 @@
       "properties": {
         "SN_KRG": "8426000",
         "KRG": "Biberach",
-        "InstalledPower": "427882.39200000063"
+        "InstalledPower": "3749.5"
       },
       "geometry": {
         "type": "Polygon",
@@ -81873,7 +81873,7 @@
       "properties": {
         "SN_KRG": "8435000",
         "KRG": "Bodensee",
-        "InstalledPower": "196339.3789999996"
+        "InstalledPower": "0.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -82244,7 +82244,7 @@
       "properties": {
         "SN_KRG": "8436000",
         "KRG": "Ravensburg",
-        "InstalledPower": "456712.53200000024"
+        "InstalledPower": "42616.2"
       },
       "geometry": {
         "type": "Polygon",
@@ -82875,7 +82875,7 @@
       "properties": {
         "SN_KRG": "8437000",
         "KRG": "Sigmaringen",
-        "InstalledPower": "287734.3720000004"
+        "InstalledPower": "57251.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -83454,7 +83454,7 @@
       "properties": {
         "SN_KRG": "9161000",
         "KRG": "Ingolstadt",
-        "InstalledPower": "69689.84699999997"
+        "InstalledPower": "0.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -83605,7 +83605,7 @@
       "properties": {
         "SN_KRG": "9162000",
         "KRG": "Muenchen",
-        "InstalledPower": "123005.46399999977"
+        "InstalledPower": "5001.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -83856,7 +83856,7 @@
       "properties": {
         "SN_KRG": "9171000",
         "KRG": "Altoetting",
-        "InstalledPower": "297682.7430000002"
+        "InstalledPower": "1.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -84159,7 +84159,7 @@
       "properties": {
         "SN_KRG": "9172000",
         "KRG": "Berchtesgadener Land",
-        "InstalledPower": "88851.26100000006"
+        "InstalledPower": "0.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -84534,7 +84534,7 @@
       "properties": {
         "SN_KRG": "9173000",
         "KRG": "Bad Toelz-Wolfratshausen",
-        "InstalledPower": "88081.85199999997"
+        "InstalledPower": "9.9"
       },
       "geometry": {
         "type": "Polygon",
@@ -84961,7 +84961,7 @@
       "properties": {
         "SN_KRG": "9174000",
         "KRG": "Dachau",
-        "InstalledPower": "214914.41799999986"
+        "InstalledPower": "20531.5"
       },
       "geometry": {
         "type": "Polygon",
@@ -85316,7 +85316,7 @@
       "properties": {
         "SN_KRG": "9175000",
         "KRG": "Ebersberg",
-        "InstalledPower": "134627.54499999998"
+        "InstalledPower": "2313.9"
       },
       "geometry": {
         "type": "Polygon",
@@ -85647,7 +85647,7 @@
       "properties": {
         "SN_KRG": "9176000",
         "KRG": "Eichstaett",
-        "InstalledPower": "321215.8650000002"
+        "InstalledPower": "121653.47"
       },
       "geometry": {
         "type": "Polygon",
@@ -86238,7 +86238,7 @@
       "properties": {
         "SN_KRG": "9177000",
         "KRG": "Erding",
-        "InstalledPower": "196694.9879999999"
+        "InstalledPower": "96.48"
       },
       "geometry": {
         "type": "Polygon",
@@ -86621,7 +86621,7 @@
       "properties": {
         "SN_KRG": "9178000",
         "KRG": "Freising",
-        "InstalledPower": "285202.7820000002"
+        "InstalledPower": "13280.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -86984,7 +86984,7 @@
       "properties": {
         "SN_KRG": "9179000",
         "KRG": "Fuerstenfeldbruck",
-        "InstalledPower": "165275.78599999967"
+        "InstalledPower": "6106.75"
       },
       "geometry": {
         "type": "Polygon",
@@ -87323,7 +87323,7 @@
       "properties": {
         "SN_KRG": "9180000",
         "KRG": "Garmisch-Partenkirchen",
-        "InstalledPower": "49494.27599999997"
+        "InstalledPower": "0.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -87678,7 +87678,7 @@
       "properties": {
         "SN_KRG": "9181000",
         "KRG": "Landsberg am Lech",
-        "InstalledPower": "258069.6919999996"
+        "InstalledPower": "32687.3"
       },
       "geometry": {
         "type": "Polygon",
@@ -88149,7 +88149,7 @@
       "properties": {
         "SN_KRG": "9182000",
         "KRG": "Miesbach",
-        "InstalledPower": "68194.57499999995"
+        "InstalledPower": "7.5"
       },
       "geometry": {
         "type": "Polygon",
@@ -88516,7 +88516,7 @@
       "properties": {
         "SN_KRG": "9183000",
         "KRG": "Muehldorf am Inn",
-        "InstalledPower": "258452.18299999967"
+        "InstalledPower": "4.5"
       },
       "geometry": {
         "type": "Polygon",
@@ -89043,7 +89043,7 @@
       "properties": {
         "SN_KRG": "9184000",
         "KRG": "Muenchen",
-        "InstalledPower": "160906.85699999984"
+        "InstalledPower": "9.25"
       },
       "geometry": {
         "type": "Polygon",
@@ -89570,7 +89570,7 @@
       "properties": {
         "SN_KRG": "9185000",
         "KRG": "Neuburg-Schrobenhausen",
-        "InstalledPower": "388254.55200000067"
+        "InstalledPower": "13080.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -89977,7 +89977,7 @@
       "properties": {
         "SN_KRG": "9186000",
         "KRG": "Pfaffenhofen a.d.Ilm",
-        "InstalledPower": "206920.00400000004"
+        "InstalledPower": "33753.8"
       },
       "geometry": {
         "type": "Polygon",
@@ -90440,7 +90440,7 @@
       "properties": {
         "SN_KRG": "9187000",
         "KRG": "Rosenheim",
-        "InstalledPower": "320857.62299999996"
+        "InstalledPower": "5.5"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -91089,7 +91089,7 @@
       "properties": {
         "SN_KRG": "9188000",
         "KRG": "Starnberg",
-        "InstalledPower": "92354.667"
+        "InstalledPower": "12040.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -91380,7 +91380,7 @@
       "properties": {
         "SN_KRG": "9189000",
         "KRG": "Traunstein",
-        "InstalledPower": "299481.3319999999"
+        "InstalledPower": "5348.3"
       },
       "geometry": {
         "type": "Polygon",
@@ -91945,7 +91945,7 @@
       "properties": {
         "SN_KRG": "9190000",
         "KRG": "Weilheim-Schongau",
-        "InstalledPower": "191266.3280000001"
+        "InstalledPower": "619.4"
       },
       "geometry": {
         "type": "Polygon",
@@ -92496,7 +92496,7 @@
       "properties": {
         "SN_KRG": "9271000",
         "KRG": "Deggendorf",
-        "InstalledPower": "447355.9350000009"
+        "InstalledPower": "12.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -92911,7 +92911,7 @@
       "properties": {
         "SN_KRG": "9272000",
         "KRG": "Freyung-Grafenau",
-        "InstalledPower": "169052.05600000007"
+        "InstalledPower": "238.35"
       },
       "geometry": {
         "type": "Polygon",
@@ -93318,7 +93318,7 @@
       "properties": {
         "SN_KRG": "9273000",
         "KRG": "Kelheim",
-        "InstalledPower": "485460.1510000005"
+        "InstalledPower": "9219.7"
       },
       "geometry": {
         "type": "Polygon",
@@ -93873,7 +93873,7 @@
       "properties": {
         "SN_KRG": "9274000",
         "KRG": "Landshut",
-        "InstalledPower": "514588.4699999997"
+        "InstalledPower": "14499.399999999998"
       },
       "geometry": {
         "type": "Polygon",
@@ -94436,7 +94436,7 @@
       "properties": {
         "SN_KRG": "9275000",
         "KRG": "Passau",
-        "InstalledPower": "622537.7890000008"
+        "InstalledPower": "623.54"
       },
       "geometry": {
         "type": "Polygon",
@@ -94959,7 +94959,7 @@
       "properties": {
         "SN_KRG": "9276000",
         "KRG": "Regen",
-        "InstalledPower": "197693.5639999998"
+        "InstalledPower": "48.5"
       },
       "geometry": {
         "type": "Polygon",
@@ -95322,7 +95322,7 @@
       "properties": {
         "SN_KRG": "9277000",
         "KRG": "Rottal-Inn",
-        "InstalledPower": "500002.04299999925"
+        "InstalledPower": "2150.8"
       },
       "geometry": {
         "type": "Polygon",
@@ -95813,7 +95813,7 @@
       "properties": {
         "SN_KRG": "9278000",
         "KRG": "Straubing-Bogen/Straubing",
-        "InstalledPower": "514655.54199999943"
+        "InstalledPower": "11407.2"
       },
       "geometry": {
         "type": "Polygon",
@@ -96384,7 +96384,7 @@
       "properties": {
         "SN_KRG": "9279000",
         "KRG": "Dingolfing-Landau",
-        "InstalledPower": "472156.58499999973"
+        "InstalledPower": "1520.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -96859,7 +96859,7 @@
       "properties": {
         "SN_KRG": "9362000",
         "KRG": "Regensburg",
-        "InstalledPower": "53660.44400000001"
+        "InstalledPower": "500.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -96978,7 +96978,7 @@
       "properties": {
         "SN_KRG": "9371000",
         "KRG": "Amberg-Sulzbach/Amberg",
-        "InstalledPower": "337697.3550000002"
+        "InstalledPower": "66049.9"
       },
       "geometry": {
         "type": "Polygon",
@@ -97601,7 +97601,7 @@
       "properties": {
         "SN_KRG": "9372000",
         "KRG": "Cham",
-        "InstalledPower": "283168.5800000001"
+        "InstalledPower": "796.1"
       },
       "geometry": {
         "type": "Polygon",
@@ -98196,7 +98196,7 @@
       "properties": {
         "SN_KRG": "9373000",
         "KRG": "Neumarkt i.d.Opf.",
-        "InstalledPower": "464457.80799999996"
+        "InstalledPower": "159969.5"
       },
       "geometry": {
         "type": "Polygon",
@@ -98743,7 +98743,7 @@
       "properties": {
         "SN_KRG": "9374000",
         "KRG": "Neustadt a.d.Waldnaab/Weiden",
-        "InstalledPower": "334741.28500000044"
+        "InstalledPower": "10810.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -99418,7 +99418,7 @@
       "properties": {
         "SN_KRG": "9375000",
         "KRG": "Regensburg",
-        "InstalledPower": "459676.2690000003"
+        "InstalledPower": "29760.1"
       },
       "geometry": {
         "type": "Polygon",
@@ -100255,7 +100255,7 @@
       "properties": {
         "SN_KRG": "9376000",
         "KRG": "Schwandorf",
-        "InstalledPower": "406247.4210000004"
+        "InstalledPower": "30001.55"
       },
       "geometry": {
         "type": "Polygon",
@@ -100970,7 +100970,7 @@
       "properties": {
         "SN_KRG": "9377000",
         "KRG": "Tirschenreuth",
-        "InstalledPower": "182299.51599999977"
+        "InstalledPower": "31812.6"
       },
       "geometry": {
         "type": "Polygon",
@@ -101437,7 +101437,7 @@
       "properties": {
         "SN_KRG": "9471000",
         "KRG": "Bamberg",
-        "InstalledPower": "228539.86300000048"
+        "InstalledPower": "84675.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -102060,7 +102060,7 @@
       "properties": {
         "SN_KRG": "9472000",
         "KRG": "Bayreuth",
-        "InstalledPower": "202218.6919999998"
+        "InstalledPower": "114952.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -102699,7 +102699,7 @@
       "properties": {
         "SN_KRG": "9473000",
         "KRG": "Coburg",
-        "InstalledPower": "208239.90099999995"
+        "InstalledPower": "26355.4"
       },
       "geometry": {
         "type": "Polygon",
@@ -103150,7 +103150,7 @@
       "properties": {
         "SN_KRG": "9474000",
         "KRG": "Forchheim",
-        "InstalledPower": "176926.31599999982"
+        "InstalledPower": "1504.6"
       },
       "geometry": {
         "type": "Polygon",
@@ -103521,7 +103521,7 @@
       "properties": {
         "SN_KRG": "9475000",
         "KRG": "Hof",
-        "InstalledPower": "307646.85500000033"
+        "InstalledPower": "251671.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -104016,7 +104016,7 @@
       "properties": {
         "SN_KRG": "9476000",
         "KRG": "Kronach",
-        "InstalledPower": "109882.72299999994"
+        "InstalledPower": "27402.5"
       },
       "geometry": {
         "type": "Polygon",
@@ -104419,7 +104419,7 @@
       "properties": {
         "SN_KRG": "9477000",
         "KRG": "Kulmbach",
-        "InstalledPower": "177136.1929999998"
+        "InstalledPower": "89954.37999999999"
       },
       "geometry": {
         "type": "Polygon",
@@ -104858,7 +104858,7 @@
       "properties": {
         "SN_KRG": "9478000",
         "KRG": "Lichtenfels",
-        "InstalledPower": "209000.207"
+        "InstalledPower": "12506.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -105245,7 +105245,7 @@
       "properties": {
         "SN_KRG": "9479000",
         "KRG": "Wunsiedel i.Fichtelgebirge",
-        "InstalledPower": "90289.00699999997"
+        "InstalledPower": "61295.3"
       },
       "geometry": {
         "type": "Polygon",
@@ -105524,7 +105524,7 @@
       "properties": {
         "SN_KRG": "9562000",
         "KRG": "Erlangen",
-        "InstalledPower": "40242.19300000002"
+        "InstalledPower": "0.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -105655,7 +105655,7 @@
       "properties": {
         "SN_KRG": "9563000",
         "KRG": "Fuerth",
-        "InstalledPower": "38128.28899999998"
+        "InstalledPower": "1.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -105742,7 +105742,7 @@
       "properties": {
         "SN_KRG": "9564000",
         "KRG": "Nuernberg",
-        "InstalledPower": "91719.95299999998"
+        "InstalledPower": "11.0"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -106003,7 +106003,7 @@
       "properties": {
         "SN_KRG": "9571000",
         "KRG": "Ansbach",
-        "InstalledPower": "734674.3149999976"
+        "InstalledPower": "174459.125"
       },
       "geometry": {
         "type": "Polygon",
@@ -106766,7 +106766,7 @@
       "properties": {
         "SN_KRG": "9572000",
         "KRG": "Erlangen-Hoechstadt",
-        "InstalledPower": "142887.31599999993"
+        "InstalledPower": "35651.5"
       },
       "geometry": {
         "type": "Polygon",
@@ -107361,7 +107361,7 @@
       "properties": {
         "SN_KRG": "9573000",
         "KRG": "Fuerth",
-        "InstalledPower": "135311.63499999995"
+        "InstalledPower": "52540.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -107600,7 +107600,7 @@
       "properties": {
         "SN_KRG": "9574000",
         "KRG": "Nuernberger Land",
-        "InstalledPower": "105742.11299999987"
+        "InstalledPower": "32263.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -108089,7 +108089,7 @@
       "properties": {
         "SN_KRG": "9575000",
         "KRG": "Neustadt a.d.Aisch-Bad Windshe",
-        "InstalledPower": "356946.2310000006"
+        "InstalledPower": "174902.2"
       },
       "geometry": {
         "type": "Polygon",
@@ -108636,7 +108636,7 @@
       "properties": {
         "SN_KRG": "9576000",
         "KRG": "Roth/Schwabach",
-        "InstalledPower": "246186.236"
+        "InstalledPower": "21541.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -109151,7 +109151,7 @@
       "properties": {
         "SN_KRG": "9577000",
         "KRG": "Weissenburg-Gunzenhausen",
-        "InstalledPower": "382891.4440000002"
+        "InstalledPower": "106724.1"
       },
       "geometry": {
         "type": "Polygon",
@@ -109594,7 +109594,7 @@
       "properties": {
         "SN_KRG": "9663000",
         "KRG": "Wuerzburg",
-        "InstalledPower": "40802.68600000003"
+        "InstalledPower": "2000.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -109725,7 +109725,7 @@
       "properties": {
         "SN_KRG": "9671000",
         "KRG": "Aschaffenburg",
-        "InstalledPower": "122897.68599999975"
+        "InstalledPower": "4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -110188,7 +110188,7 @@
       "properties": {
         "SN_KRG": "9672000",
         "KRG": "Bad Kissingen",
-        "InstalledPower": "227210.77399999983"
+        "InstalledPower": "127542.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -110715,7 +110715,7 @@
       "properties": {
         "SN_KRG": "9673000",
         "KRG": "Rhoen-Grabfeld",
-        "InstalledPower": "146057.2729999999"
+        "InstalledPower": "78400.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -111210,7 +111210,7 @@
       "properties": {
         "SN_KRG": "9674000",
         "KRG": "Hassberge",
-        "InstalledPower": "350876.86299999995"
+        "InstalledPower": "44211.98"
       },
       "geometry": {
         "type": "Polygon",
@@ -111677,7 +111677,7 @@
       "properties": {
         "SN_KRG": "9675000",
         "KRG": "Kitzingen",
-        "InstalledPower": "298983.6280000001"
+        "InstalledPower": "27660.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -112032,7 +112032,7 @@
       "properties": {
         "SN_KRG": "9676000",
         "KRG": "Miltenberg",
-        "InstalledPower": "124839.09299999996"
+        "InstalledPower": "20800.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -112507,7 +112507,7 @@
       "properties": {
         "SN_KRG": "9677000",
         "KRG": "Main-Spessart",
-        "InstalledPower": "309597.36600000015"
+        "InstalledPower": "94025.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -113086,7 +113086,7 @@
       "properties": {
         "SN_KRG": "9678000",
         "KRG": "Schweinfurt",
-        "InstalledPower": "221801.30900000004"
+        "InstalledPower": "121113.25"
       },
       "geometry": {
         "type": "Polygon",
@@ -113625,7 +113625,7 @@
       "properties": {
         "SN_KRG": "9679000",
         "KRG": "Wuerzburg",
-        "InstalledPower": "324774.52800000075"
+        "InstalledPower": "127394.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -114238,7 +114238,7 @@
       "properties": {
         "SN_KRG": "9761000",
         "KRG": "Augsburg",
-        "InstalledPower": "71048.955"
+        "InstalledPower": "0.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -114429,7 +114429,7 @@
       "properties": {
         "SN_KRG": "9771000",
         "KRG": "Aichach-Friedberg",
-        "InstalledPower": "321694.9120000003"
+        "InstalledPower": "27612.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -114844,7 +114844,7 @@
       "properties": {
         "SN_KRG": "9772000",
         "KRG": "Augsburg",
-        "InstalledPower": "447180.90300000086"
+        "InstalledPower": "16703.53"
       },
       "geometry": {
         "type": "Polygon",
@@ -115451,7 +115451,7 @@
       "properties": {
         "SN_KRG": "9773000",
         "KRG": "Dillingen a.d. Donau",
-        "InstalledPower": "260292.4089999998"
+        "InstalledPower": "24803.6"
       },
       "geometry": {
         "type": "Polygon",
@@ -115918,7 +115918,7 @@
       "properties": {
         "SN_KRG": "9774000",
         "KRG": "Guenzburg",
-        "InstalledPower": "318360.3159999999"
+        "InstalledPower": "7215.6"
       },
       "geometry": {
         "type": "Polygon",
@@ -116441,7 +116441,7 @@
       "properties": {
         "SN_KRG": "9775000",
         "KRG": "Neu-Ulm",
-        "InstalledPower": "237986.343"
+        "InstalledPower": "2010.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -116764,7 +116764,7 @@
       "properties": {
         "SN_KRG": "9776000",
         "KRG": "Lindau (Bodensee)",
-        "InstalledPower": "77196.63699999996"
+        "InstalledPower": "0.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -117051,7 +117051,7 @@
       "properties": {
         "SN_KRG": "9777000",
         "KRG": "Ostallgaeu/Kaufbeuren",
-        "InstalledPower": "443620.01199999894"
+        "InstalledPower": "55375.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -117746,7 +117746,7 @@
       "properties": {
         "SN_KRG": "9778000",
         "KRG": "Unterallgaeu/Memmingen",
-        "InstalledPower": "437758.35300000035"
+        "InstalledPower": "6607.4"
       },
       "geometry": {
         "type": "Polygon",
@@ -118373,7 +118373,7 @@
       "properties": {
         "SN_KRG": "9779000",
         "KRG": "Donau-Ries",
-        "InstalledPower": "381114.38399999996"
+        "InstalledPower": "10148.230000000001"
       },
       "geometry": {
         "type": "Polygon",
@@ -119024,7 +119024,7 @@
       "properties": {
         "SN_KRG": "9780000",
         "KRG": "Oberallgaeu/Kempten",
-        "InstalledPower": "214195.8279999999"
+        "InstalledPower": "26226.22"
       },
       "geometry": {
         "type": "Polygon",
@@ -119551,7 +119551,7 @@
       "properties": {
         "SN_KRG": "10041000",
         "KRG": "Regionalverband Saarbruecken",
-        "InstalledPower": "165434.82799999992"
+        "InstalledPower": "27760.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -119870,7 +119870,7 @@
       "properties": {
         "SN_KRG": "10042000",
         "KRG": "Merzig-Wadern",
-        "InstalledPower": "141087.41600000003"
+        "InstalledPower": "195003.5"
       },
       "geometry": {
         "type": "Polygon",
@@ -120165,7 +120165,7 @@
       "properties": {
         "SN_KRG": "10043000",
         "KRG": "Neunkirchen",
-        "InstalledPower": "97548.14700000004"
+        "InstalledPower": "77460.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -120376,7 +120376,7 @@
       "properties": {
         "SN_KRG": "10044000",
         "KRG": "Saarlouis",
-        "InstalledPower": "136300.12499999977"
+        "InstalledPower": "51560.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -120671,7 +120671,7 @@
       "properties": {
         "SN_KRG": "10045000",
         "KRG": "Saar-Pfalz",
-        "InstalledPower": "108638.37200000012"
+        "InstalledPower": "18000.6"
       },
       "geometry": {
         "type": "Polygon",
@@ -120994,7 +120994,7 @@
       "properties": {
         "SN_KRG": "10046000",
         "KRG": "Sankt Wendel",
-        "InstalledPower": "149199.97200000007"
+        "InstalledPower": "214950.6"
       },
       "geometry": {
         "type": "Polygon",
@@ -121309,7 +121309,7 @@
       "properties": {
         "SN_KRG": "11000000",
         "KRG": "Berlin",
-        "InstalledPower": "249840.09500000166"
+        "InstalledPower": "16575.2"
       },
       "geometry": {
         "type": "Polygon",
@@ -121756,7 +121756,7 @@
       "properties": {
         "SN_KRG": "12054000",
         "KRG": "Potsdam",
-        "InstalledPower": "37835.204999999994"
+        "InstalledPower": "105350.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -121959,7 +121959,7 @@
       "properties": {
         "SN_KRG": "12060000",
         "KRG": "Barnim",
-        "InstalledPower": "498920.47200000077"
+        "InstalledPower": "465114.6"
       },
       "geometry": {
         "type": "Polygon",
@@ -122594,7 +122594,7 @@
       "properties": {
         "SN_KRG": "12061000",
         "KRG": "Dahme-Spreewald",
-        "InstalledPower": "338854.1120000007"
+        "InstalledPower": "732450.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -123373,7 +123373,7 @@
       "properties": {
         "SN_KRG": "12062000",
         "KRG": "Elbe-Elster",
-        "InstalledPower": "460662.5129999995"
+        "InstalledPower": "703471.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -123944,7 +123944,7 @@
       "properties": {
         "SN_KRG": "12063000",
         "KRG": "Havelland",
-        "InstalledPower": "264601.1630000002"
+        "InstalledPower": "302496.19999999995"
       },
       "geometry": {
         "type": "Polygon",
@@ -124643,7 +124643,7 @@
       "properties": {
         "SN_KRG": "12064000",
         "KRG": "Maerkisch Oderland",
-        "InstalledPower": "857467.9879999999"
+        "InstalledPower": "772556.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -125222,7 +125222,7 @@
       "properties": {
         "SN_KRG": "12065000",
         "KRG": "Oberhavel",
-        "InstalledPower": "282491.5480000001"
+        "InstalledPower": "165438.6"
       },
       "geometry": {
         "type": "Polygon",
@@ -125909,7 +125909,7 @@
       "properties": {
         "SN_KRG": "12066000",
         "KRG": "Oberspreewald-Lausitz",
-        "InstalledPower": "692474.7370000009"
+        "InstalledPower": "517575.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -126420,7 +126420,7 @@
       "properties": {
         "SN_KRG": "12067000",
         "KRG": "Oder-Spree/Frankfurt",
-        "InstalledPower": "292048.5890000007"
+        "InstalledPower": "516564.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -127119,7 +127119,7 @@
       "properties": {
         "SN_KRG": "12068000",
         "KRG": "Ostprignitz-Ruppin",
-        "InstalledPower": "333356.2730000004"
+        "InstalledPower": "629827.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -127826,7 +127826,7 @@
       "properties": {
         "SN_KRG": "12069000",
         "KRG": "Potsdam-Mittelmark/Brandenburg",
-        "InstalledPower": "268046.42500000034"
+        "InstalledPower": "526883.5"
       },
       "geometry": {
         "type": "Polygon",
@@ -128449,7 +128449,7 @@
       "properties": {
         "SN_KRG": "12070000",
         "KRG": "Prignitz",
-        "InstalledPower": "482624.60300000024"
+        "InstalledPower": "1345191.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -129056,7 +129056,7 @@
       "properties": {
         "SN_KRG": "12071000",
         "KRG": "Spree-Neisse/Cottbus",
-        "InstalledPower": "478017.65400000004"
+        "InstalledPower": "227833.75"
       },
       "geometry": {
         "type": "Polygon",
@@ -129507,7 +129507,7 @@
       "properties": {
         "SN_KRG": "12072000",
         "KRG": "Teltow-Flaeming",
-        "InstalledPower": "253454.0050000001"
+        "InstalledPower": "930100.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -130054,7 +130054,7 @@
       "properties": {
         "SN_KRG": "12073000",
         "KRG": "Uckermark",
-        "InstalledPower": "431586.6929999999"
+        "InstalledPower": "1762002.4"
       },
       "geometry": {
         "type": "Polygon",
@@ -130717,7 +130717,7 @@
       "properties": {
         "SN_KRG": "13003000",
         "KRG": "Rostock",
-        "InstalledPower": "48221.875"
+        "InstalledPower": "16201.12"
       },
       "geometry": {
         "type": "Polygon",
@@ -131817,7 +131817,7 @@
       "properties": {
         "SN_KRG": "13071000",
         "KRG": "Mecklenburgische Seenplatte",
-        "InstalledPower": "766952.0530000012"
+        "InstalledPower": "749212.7"
       },
       "geometry": {
         "type": "Polygon",
@@ -132796,7 +132796,7 @@
       "properties": {
         "SN_KRG": "13072000",
         "KRG": "Land Rostock",
-        "InstalledPower": "507437.5800000019"
+        "InstalledPower": "856621.8"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -133701,7 +133701,7 @@
       "properties": {
         "SN_KRG": "13073000",
         "KRG": "Vorpommern-Ruegen",
-        "InstalledPower": "463182.5140000009"
+        "InstalledPower": "511899.8"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -135450,7 +135450,7 @@
       "properties": {
         "SN_KRG": "13075000",
         "KRG": "Vorpommern-Greifswald",
-        "InstalledPower": "625255.5570000012"
+        "InstalledPower": "897487.3999999999"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -136815,7 +136815,7 @@
       "properties": {
         "SN_KRG": "13076000",
         "KRG": "Ludwigslust-Parchim",
-        "InstalledPower": "906029.7089999986"
+        "InstalledPower": "843300.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -137874,7 +137874,7 @@
       "properties": {
         "SN_KRG": "14511000",
         "KRG": "Chemnitz",
-        "InstalledPower": "87536.74899999995"
+        "InstalledPower": "13152.7"
       },
       "geometry": {
         "type": "Polygon",
@@ -138089,7 +138089,7 @@
       "properties": {
         "SN_KRG": "14521000",
         "KRG": "Erzgebirgs",
-        "InstalledPower": "197425.72199999975"
+        "InstalledPower": "128061.59999999999"
       },
       "geometry": {
         "type": "Polygon",
@@ -138664,7 +138664,7 @@
       "properties": {
         "SN_KRG": "14522000",
         "KRG": "Mittelsachsen",
-        "InstalledPower": "354307.112000001"
+        "InstalledPower": "305644.10000000003"
       },
       "geometry": {
         "type": "Polygon",
@@ -139383,7 +139383,7 @@
       "properties": {
         "SN_KRG": "14523000",
         "KRG": "Vogtland",
-        "InstalledPower": "140583.42799999987"
+        "InstalledPower": "37038.6"
       },
       "geometry": {
         "type": "Polygon",
@@ -140002,7 +140002,7 @@
       "properties": {
         "SN_KRG": "14524000",
         "KRG": "Zwickau",
-        "InstalledPower": "219553.9240000003"
+        "InstalledPower": "179753.7"
       },
       "geometry": {
         "type": "Polygon",
@@ -140529,7 +140529,7 @@
       "properties": {
         "SN_KRG": "14612000",
         "KRG": "Dresden",
-        "InstalledPower": "64290.38199999997"
+        "InstalledPower": "2400.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -140780,7 +140780,7 @@
       "properties": {
         "SN_KRG": "14625000",
         "KRG": "Bautzen",
-        "InstalledPower": "431219.84800000105"
+        "InstalledPower": "140841.1"
       },
       "geometry": {
         "type": "Polygon",
@@ -141507,7 +141507,7 @@
       "properties": {
         "SN_KRG": "14626000",
         "KRG": "Goerlitz",
-        "InstalledPower": "297208.55600000103"
+        "InstalledPower": "220442.6"
       },
       "geometry": {
         "type": "Polygon",
@@ -142170,7 +142170,7 @@
       "properties": {
         "SN_KRG": "14627000",
         "KRG": "Meissen",
-        "InstalledPower": "337541.15700000076"
+        "InstalledPower": "195321.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -142701,7 +142701,7 @@
       "properties": {
         "SN_KRG": "14628000",
         "KRG": "Saechsische Schweiz-Osterzgebirge",
-        "InstalledPower": "135669.764"
+        "InstalledPower": "48061.6"
       },
       "geometry": {
         "type": "Polygon",
@@ -143268,7 +143268,7 @@
       "properties": {
         "SN_KRG": "14713000",
         "KRG": "Leipzig",
-        "InstalledPower": "119414.00799999986"
+        "InstalledPower": "27000.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -143523,7 +143523,7 @@
       "properties": {
         "SN_KRG": "14729000",
         "KRG": "Leipzig",
-        "InstalledPower": "380631.87700000126"
+        "InstalledPower": "104273.2"
       },
       "geometry": {
         "type": "Polygon",
@@ -144190,7 +144190,7 @@
       "properties": {
         "SN_KRG": "14730000",
         "KRG": "Nordsachsen",
-        "InstalledPower": "398829.9700000004"
+        "InstalledPower": "135376.72999999998"
       },
       "geometry": {
         "type": "Polygon",
@@ -145029,7 +145029,7 @@
       "properties": {
         "SN_KRG": "15002000",
         "KRG": "Halle (Saale)",
-        "InstalledPower": "87221.49900000001"
+        "InstalledPower": "53582.7"
       },
       "geometry": {
         "type": "Polygon",
@@ -145220,7 +145220,7 @@
       "properties": {
         "SN_KRG": "15003000",
         "KRG": "Magdeburg, Landeshauptstadt",
-        "InstalledPower": "71286.98700000004"
+        "InstalledPower": "15780.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -145411,7 +145411,7 @@
       "properties": {
         "SN_KRG": "15081000",
         "KRG": "Altmark Salzwedel",
-        "InstalledPower": "319846.41899999994"
+        "InstalledPower": "423828.8"
       },
       "geometry": {
         "type": "Polygon",
@@ -145942,7 +145942,7 @@
       "properties": {
         "SN_KRG": "15082000",
         "KRG": "Anhalt-Bitterfeld/Dessau-Rosslau",
-        "InstalledPower": "509885.4130000004"
+        "InstalledPower": "568285.35"
       },
       "geometry": {
         "type": "Polygon",
@@ -146485,7 +146485,7 @@
       "properties": {
         "SN_KRG": "15083000",
         "KRG": "Boerde",
-        "InstalledPower": "348739.8140000008"
+        "InstalledPower": "799085.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -147176,7 +147176,7 @@
       "properties": {
         "SN_KRG": "15084000",
         "KRG": "Burgenland",
-        "InstalledPower": "278808.7340000004"
+        "InstalledPower": "627224.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -147839,7 +147839,7 @@
       "properties": {
         "SN_KRG": "15085000",
         "KRG": "Harz",
-        "InstalledPower": "332302.8450000003"
+        "InstalledPower": "337560.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -148422,7 +148422,7 @@
       "properties": {
         "SN_KRG": "15086000",
         "KRG": "Jerichower Land",
-        "InstalledPower": "213523.2909999998"
+        "InstalledPower": "325285.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -148857,7 +148857,7 @@
       "properties": {
         "SN_KRG": "15087000",
         "KRG": "Mansfeld-Suedharz",
-        "InstalledPower": "464925.6240000003"
+        "InstalledPower": "466897.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -149484,7 +149484,7 @@
       "properties": {
         "SN_KRG": "15088000",
         "KRG": "Saale",
-        "InstalledPower": "371136.6660000008"
+        "InstalledPower": "397424.6"
       },
       "geometry": {
         "type": "Polygon",
@@ -150241,7 +150241,7 @@
       "properties": {
         "SN_KRG": "15089000",
         "KRG": "Salzland",
-        "InstalledPower": "328910.4190000008"
+        "InstalledPower": "730335.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -150736,7 +150736,7 @@
       "properties": {
         "SN_KRG": "15090000",
         "KRG": "Stendal",
-        "InstalledPower": "310916.6540000006"
+        "InstalledPower": "1074095.0"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -151469,7 +151469,7 @@
       "properties": {
         "SN_KRG": "15091000",
         "KRG": "Wittenberg",
-        "InstalledPower": "275503.4430000005"
+        "InstalledPower": "392091.5"
       },
       "geometry": {
         "type": "Polygon",
@@ -151976,7 +151976,7 @@
       "properties": {
         "SN_KRG": "16051000",
         "KRG": "Erfurt",
-        "InstalledPower": "81941.35999999988"
+        "InstalledPower": "47402.02"
       },
       "geometry": {
         "type": "Polygon",
@@ -152191,7 +152191,7 @@
       "properties": {
         "SN_KRG": "16053000",
         "KRG": "Jena",
-        "InstalledPower": "16844.983000000007"
+        "InstalledPower": "0.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -152330,7 +152330,7 @@
       "properties": {
         "SN_KRG": "16061000",
         "KRG": "Eichsfeld",
-        "InstalledPower": "132487.75799999983"
+        "InstalledPower": "84000.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -152753,7 +152753,7 @@
       "properties": {
         "SN_KRG": "16062000",
         "KRG": "Nordhausen",
-        "InstalledPower": "106529.62899999996"
+        "InstalledPower": "79670.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -153132,7 +153132,7 @@
       "properties": {
         "SN_KRG": "16063000",
         "KRG": "Wartburg/Eisenach",
-        "InstalledPower": "143920.6870000001"
+        "InstalledPower": "115925.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -153883,7 +153883,7 @@
       "properties": {
         "SN_KRG": "16064000",
         "KRG": "Unstrut-Hainich",
-        "InstalledPower": "163376.06599999973"
+        "InstalledPower": "313753.11"
       },
       "geometry": {
         "type": "Polygon",
@@ -154330,7 +154330,7 @@
       "properties": {
         "SN_KRG": "16065000",
         "KRG": "Kyffhaeuser",
-        "InstalledPower": "163092.906"
+        "InstalledPower": "272400.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -154877,7 +154877,7 @@
       "properties": {
         "SN_KRG": "16066000",
         "KRG": "Schmalkalden-Meiningen/Suhl",
-        "InstalledPower": "136870.87300000005"
+        "InstalledPower": "17401.0"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -155522,7 +155522,7 @@
       "properties": {
         "SN_KRG": "16067000",
         "KRG": "Gotha",
-        "InstalledPower": "135361.33499999993"
+        "InstalledPower": "271383.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -155917,7 +155917,7 @@
       "properties": {
         "SN_KRG": "16068000",
         "KRG": "Soemmerda",
-        "InstalledPower": "107609.70299999998"
+        "InstalledPower": "296605.95"
       },
       "geometry": {
         "type": "Polygon",
@@ -156452,7 +156452,7 @@
       "properties": {
         "SN_KRG": "16069000",
         "KRG": "Hildburghausen",
-        "InstalledPower": "111576.26899999999"
+        "InstalledPower": "14454.199"
       },
       "geometry": {
         "type": "Polygon",
@@ -157031,7 +157031,7 @@
       "properties": {
         "SN_KRG": "16070000",
         "KRG": "Ilm",
-        "InstalledPower": "79379.16499999998"
+        "InstalledPower": "6405.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -157470,7 +157470,7 @@
       "properties": {
         "SN_KRG": "16071000",
         "KRG": "Weimarer Land/Weimar",
-        "InstalledPower": "142443.80300000007"
+        "InstalledPower": "147180.49"
       },
       "geometry": {
         "type": "Polygon",
@@ -157929,7 +157929,7 @@
       "properties": {
         "SN_KRG": "16072000",
         "KRG": "Sonneberg",
-        "InstalledPower": "34098.083000000006"
+        "InstalledPower": "10.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -158284,7 +158284,7 @@
       "properties": {
         "SN_KRG": "16073000",
         "KRG": "Saalfeld-Rudolstadt",
-        "InstalledPower": "79139.73199999997"
+        "InstalledPower": "9250.6"
       },
       "geometry": {
         "type": "Polygon",
@@ -158907,7 +158907,7 @@
       "properties": {
         "SN_KRG": "16074000",
         "KRG": "Saale-Holzland",
-        "InstalledPower": "146243.52599999995"
+        "InstalledPower": "150843.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -159438,7 +159438,7 @@
       "properties": {
         "SN_KRG": "16075000",
         "KRG": "Saale-Orla",
-        "InstalledPower": "125815.169"
+        "InstalledPower": "55138.8"
       },
       "geometry": {
         "type": "Polygon",
@@ -160033,7 +160033,7 @@
       "properties": {
         "SN_KRG": "16076000",
         "KRG": "Greiz/Gera",
-        "InstalledPower": "157641.78799999985"
+        "InstalledPower": "74359.5"
       },
       "geometry": {
         "type": "Polygon",
@@ -160584,7 +160584,7 @@
       "properties": {
         "SN_KRG": "16077000",
         "KRG": "Altenburger Land",
-        "InstalledPower": "160996.481"
+        "InstalledPower": "110925.0"
       },
       "geometry": {
         "type": "Polygon",

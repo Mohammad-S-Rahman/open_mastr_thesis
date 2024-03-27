@@ -48,13 +48,7 @@ api_limit = 10000 #Do NOT exceed this Limit. NEVER!
 api_processes = None
 
 data_api = [
-    "biomass",
-    "combustion",
-    "gsgk",
-    "hydro",
-    "nuclear",
     "solar",
-    "storage",
     "wind",
 ]
 
@@ -102,6 +96,12 @@ if __name__ == "__main__":
     # bulk download
     if download_method =='bulk':
         db.download(method="bulk", data=data_bulk, date=bulk_date, bulk_cleansing=True)
+        ## export to csv
+        """
+        Technology-related tables are exported as joined, whereas additional tables
+        are duplicated as they are in the database. 
+        """
+        db.to_csv()
     elif download_method == 'API':
     # API download
         db.download(
@@ -115,9 +115,5 @@ if __name__ == "__main__":
         api_location_types=api_location_types,
         )
 
-    ## export to csv
-    """
-    Technology-related tables are exported as joined, whereas additional tables
-    are duplicated as they are in the database. 
-    """
-    db.to_csv()
+    
+    
